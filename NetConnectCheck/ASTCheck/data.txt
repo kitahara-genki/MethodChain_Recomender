@@ -1,0 +1,8 @@
+ list,<|>,,<|>,boolean,<String|null|>,add
+ list,<|>,,<|>,boolean,<String|null|>,add
+ list,<|>,,<|>,boolean,<String|null|>,add
+ Integer,<|>,Integer,<String|null|>,int,<null|>,intValue
+ Math,<|>,,<|>,double,<double|double|null|>,atan2
+ System,<|>,PrintStream,<|>,void,<String|null|>,println
+ System,<|>,PrintStream,<|>,void,<char[]|null|>,println
+ System,<|>,PrintStream,<|>,void,<char[]|null|>,println

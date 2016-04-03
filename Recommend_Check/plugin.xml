@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+    <extension
+		id="re"
+		name="re"
+		point="org.eclipse.jdt.ui.javaCompletionProposalComputer">
+	<javaCompletionProposalComputer
+		activate="true"
+		categoryId="Recommend_Check.re"
+		class="recommend_check.JavaCompletionProposalComputer_Check"
+		needsSortingAfterFiltering="false">
+		<partition type="__dftl_partition_content_type"/>
+	
+	</javaCompletionProposalComputer>
+   </extension>
+
+</plugin>

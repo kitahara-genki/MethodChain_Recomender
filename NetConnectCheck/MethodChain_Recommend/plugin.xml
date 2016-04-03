@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="4.4"?>
+<plugin>
+<!--
+ <extension point="org.eclipse.jdt.ui.javaCompletionProposalComputer"
+   id="textual_proposals"
+   name="Text Proposals">
+   <proposalCategory icon="icons/icon1.png"/>
+ </extension>
+ <extension point="org.eclipse.jdt.ui.javaCompletionProposalComputer"
+   id="WordCompletionProposalComputer">
+   <javaCompletionProposalComputer
+         activate="true"
+         categoryId="MethodChain_Recommend.GKRecommend"
+         class="methodchain_recommend.GKRecommend"
+         needsSortingAfterFiltering="false">
+      <partition type="__dftl_partition_content_type"/>
+   </javaCompletionProposalComputer>
+ </extension>
+-->
+
+
+   <extension
+		id="GKRecommend"
+		name="GKRecommend"
+		point="org.eclipse.jdt.ui.javaCompletionProposalComputer">
+	<javaCompletionProposalComputer
+		activate="true"
+		categoryId="MethodChain_Recommend.GKRecommend"
+		class="methodchain_recommend.GKRecommend"
+		needsSortingAfterFiltering="false">
+		<partition type="__dftl_partition_content_type"/>
+	
+	</javaCompletionProposalComputer>
+   </extension>
+
+<!--	<proposalCategory icon="icons/icon1.gif"/> (partition typeの下)-->
+</plugin>

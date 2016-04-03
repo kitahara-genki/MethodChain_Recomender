@@ -1,0 +1,931 @@
+@description=java source codes
+@title=database_web_1nasi_fnasi_tuika2
+i8343
+#title=AllocationStrategy.java8343
+8 ,,PrintStream,[･],out,void,[char[]･null･],println
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+8 s,System,PrintStream,[･],out,void,[char[]･null･],println
+!
+i8344
+#title=AlsoCares.java8344
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+!
+i8345
+#title=AlsoReadsFile.java8345
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,DataInputStream,,[･],,int,[null･],available
+1 ,DataInputStream,,[･],,byte,[null･],readByte
+!
+i8346
+#title=Announcer.java8346
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+!
+i8347
+#title=Arc.java8347
+1 s,Arc2D,,[･],Double,int,[null･],getArcType
+1 ,Double,,[･],,double,[null･],getHeight
+1 ,Double,,[･],,double,[null･],getAngleStart
+1 ,,,[･],Double,int,[null･],getArcType
+1 ,Double,,[･],,double,[null･],getY
+1 ,Double,,[･],,double,[null･],getX
+1 ,Double,,[･],,double,[null･],getAngleExtent
+1 ,Double,,[･],,void,[double･double･double･double･double･double･int･null･],setArc
+1 ,Double,,[･],,double,[null･],getWidth
+!
+i8348
+#title=ArgsProcessor.java8348
+1 ,Object,,[･],,String,[null･],toString
+1 ,FileNotFoundException,,[･],,void,[null･],printStackTrace
+2 ,JFileChooser,,[･],,void,[File･null･],setCurrentDirectory
+1 ,JFileChooser,,[･],,int,[Component･null･],showOpenDialog
+5 s,System,,[･],,String,[String･null･],getProperty
+1 s,System,,[･],,void,[InputStream･null･],setIn
+1 ,JFileChooser,,[･],,int,[Component･null･],showSaveDialog
+2 s,Double,,[･],,double,[String･null･],parseDouble
+1 s,System,,[･],,void,[PrintStream･null･],setOut
+1 s,JOptionPane,,[･],,Object,[Component･Object･String･int･Icon･Object[]･Object･null･],showInputDialog
+2 ,JFileChooser,,[･],,File,[null･],getSelectedFile
+2 s,Integer,,[･],,int,[String･null･],parseInt
+1 ,Exception,,[･],,void,[null･],printStackTrace
+!
+i8349
+#title=Asset.java8349
+1 s,Math,,[･],,double,[null･],random
+!
+i8350
+#title=Bank.java8350
+1 ,JFrame,,[･],,void,[boolean･null･],setVisible
+2 ,,PrintStream,[･],out,void,[char[]･null･],println
+2 ,JPanel,,[･],,Component,[Component･null･],add
+2 s,System,PrintStream,[･],out,void,[char[]･null･],println
+1 ,JFrame,,[･],,Component,[Component･null･],add
+1 ,JFrame,,[･],,void,[null･],pack
+!
+i8351
+#title=BasicGraphicsPanel.java8351
+1 ,ShapesPanelDisplay,,[･],,void,[Component･null･],moveToFront
+1 ,ShapesPanelDisplay,,[･],,void,[Component･null･],remove
+1 ,ShapesPanelDisplay,,[･],,void,[Component･null･],moveToBack
+1 ,ShapesPanelDisplay,,[･],,void,[null･],removeAll
+1 ,ShapesPanelDisplay,,[･],,void,[Component･Object･null･],add
+1 ,Component,,[･],,Container,[null･],getParent
+!
+i8352
+#title=BinaryDump.java8352
+1 s,Integer,,[･],,int,[String･null･],parseInt
+!
+i8353
+#title=BinaryIn.java8353
+2 ,URLConnection,,[･],,InputStream,[null･],getInputStream
+1 s,Double,,[･],,double,[long･null･],longBitsToDouble
+1 s,Float,,[･],,float,[int･null･],intBitsToFloat
+1 ,BinaryIn,,[･],,boolean,[null･],isEmpty
+4 s,System,PrintStream,[･],err,void,[String･null･],println
+4 ,,PrintStream,[･],err,void,[String･null･],println
+1 ,File,,[･],,boolean,[null･],exists
+1 ,Socket,,[･],,InputStream,[null･],getInputStream
+1 ,BufferedInputStream,,[･],,int,[null･],read
+1 ,StringBuilder,,[･],,StringBuilder,[char･null･],append
+1 ,BinaryIn,,[･],,char,[null･],readChar
+2 ,URL,,[･],,URLConnection,[null･],openConnection
+1 ,StringBuilder,,[･],,String,[null･],toString
+!
+i8354
+#title=BinaryOut.java8354
+1 ,BufferedOutputStream,,[･],,void,[byte[]･null･],write
+2 ,String,,[･],,int,[null･],length
+1 ,BufferedOutputStream,,[･],,void,[int･null･],write
+2 ,String,,[･],,char,[int･null･],charAt
+1 ,BinaryOut,,[･],,void,[null･],flush
+1 ,BufferedOutputStream,,[･],,void,[null･],close
+1 s,Double,,[･],,long,[double･null･],doubleToRawLongBits
+1 ,BinaryOut,,[･],,void,[char･null･],write
+1 s,Float,,[･],,int,[float･null･],floatToRawIntBits
+1 ,BufferedOutputStream,,[･],,void,[null･],flush
+6 ,IOException,,[･],,void,[null･],printStackTrace
+1 ,Socket,,[･],,OutputStream,[null･],getOutputStream
+!
+i8355
+#title=BinaryStdIn.java8355
+1 ,BufferedInputStream,,[･],,int,[null･],read
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,Double,,[･],,double,[long･null･],longBitsToDouble
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+1 s,Float,,[･],,float,[int･null･],intBitsToFloat
+1 s,BinaryStdIn,,[･],,boolean,[null･],isEmpty
+1 s,BinaryStdIn,,[･],,char,[null･],readChar
+1 ,StringBuilder,,[･],,StringBuilder,[char･null･],append
+1 ,BufferedInputStream,,[･],,void,[null･],close
+1 ,IOException,,[･],,void,[null･],printStackTrace
+1 ,StringBuilder,,[･],,String,[null･],toString
+!
+i8356
+#title=BinaryStdInTester.java8356
+1 ,,PrintStream,[･],out,void,[float･null･],println
+1 ,,PrintStream,[･],out,void,[boolean･null･],println
+1 s,System,PrintStream,[･],out,void,[char･null･],println
+1 ,,PrintStream,[･],out,void,[long･null･],println
+1 ,,PrintStream,[･],out,void,[char･null･],println
+1 s,System,PrintStream,[･],out,void,[long･null･],println
+1 ,,PrintStream,[･],out,void,[int･null･],println
+1 s,System,PrintStream,[･],out,void,[boolean･null･],println
+1 s,System,PrintStream,[･],out,void,[float･null･],println
+1 s,System,PrintStream,[･],out,void,[int･null･],println
+1 ,,PrintStream,[･],out,void,[double･null･],println
+1 s,System,PrintStream,[･],out,void,[double･null･],println
+!
+i8357
+#title=BinaryStdOut.java8357
+1 ,BufferedOutputStream,,[･],,void,[byte[]･null･],write
+2 ,String,,[･],,int,[null･],length
+1 ,BufferedOutputStream,,[･],,void,[int･null･],write
+2 ,String,,[･],,char,[int･null･],charAt
+1 s,BinaryStdOut,,[･],,void,[int･null･],write
+1 ,BufferedOutputStream,,[･],,void,[null･],close
+1 s,Double,,[･],,long,[double･null･],doubleToRawLongBits
+1 s,BinaryStdOut,,[･],,void,[null･],flush
+1 s,Integer,,[･],,int,[String･null･],parseInt
+1 s,Float,,[･],,int,[float･null･],floatToRawIntBits
+1 ,BufferedOutputStream,,[･],,void,[null･],flush
+4 ,IOException,,[･],,void,[null･],printStackTrace
+!
+i8358
+#title=BinomialTree.java8358
+1 s,System,PrintStream,[･],out,void,[Object･null･],println
+1 s,Math,,[･],,double,[double･null･],sqrt
+1 ,BinomialTree,,[･],,void,[boolean･boolean･null･],calculateValues
+1 ,,PrintStream,[･],out,void,[Object･null･],println
+4 s,Math,,[･],,double,[double･null･],exp
+!
+i8359
+#title=CaptureOutput.java8359
+1 ,,PrintStream,[･],out,void,[null･],flush
+1 s,System,PrintStream,[･],out,void,[null･],flush
+1 ,ByteArrayOutputStream,,[･],,byte[],[null･],toByteArray
+2 s,System,,[･],,void,[PrintStream･null･],setOut
+1 ,Runnable,,[･],,void,[null･],run
+1 ,PrintStream,,[･],,void,[null･],flush
+!
+i8360
+#title=Cares.java8360
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+!
+i8361
+#title=CaresAboutYear1.java8361
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+!
+i8362
+#title=ConstantWeightAllocation.java8362
+2 ,,PrintStream,[･],out,void,[char[]･null･],println
+2 s,System,PrintStream,[･],out,void,[char[]･null･],println
+2 s,Math,,[･],,int,[int･null･],abs
+!
+i8363
+#title=Controller (2).java8363
+2 ,JButton,,[･],,void,[ActionListener･null･],addActionListener
+1 ,JFrame,,[･],,void,[boolean･null･],setVisible
+2 ,,PrintStream,[･],out,void,[char[]･null･],println
+1 ,JFrame,,[･],,void,[int･null･],setDefaultCloseOperation
+2 s,System,PrintStream,[･],out,void,[char[]･null･],println
+1 ,JFrame,,[･],,Component,[Component･null･],add
+2 ,ActionEvent,,[･],,String,[null･],getActionCommand
+1 ,JFrame,,[･],,void,[null･],pack
+!
+i8364
+#title=CookbookAlignPairGlobal.java8364
+2 ,,PrintStream,[･],out,PrintStream,[String･Object[]･null･],printf
+1 s,String,,[･],,String,[String･Object[]･null･],format
+1 ,Exception,,[･],,void,[null･],printStackTrace
+2 s,System,PrintStream,[･],out,PrintStream,[String･Object[]･null･],printf
+!
+i8365
+#title=CookbookLocalPairAlignmentDNA.java8365
+1 ,,PrintStream,[･],out,void,[char[]･null･],println
+1 s,System,PrintStream,[･],out,void,[char[]･null･],println
+!
+i8366
+#title=CookbookMSA.java8366
+2 ,,PrintStream,[･],out,PrintStream,[String･Object[]･null･],printf
+1 s,String,,[･],,String,[String･Object[]･null･],format
+1 ,Exception,,[･],,void,[null･],printStackTrace
+2 s,System,PrintStream,[･],out,PrintStream,[String･Object[]･null･],printf
+!
+i8367
+#title=Dialog.java8367
+2 ,Method,,[･],,String,[null･],getName
+1 ,,JOptionPane,[･],JOptionPane,String,[Component･Object･Object･null･],showInputDialog
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,,JOptionPane,[･],JOptionPane,String,[Component･Object･null･],showInputDialog
+1 ,,PrintStream,[･],out,void,[int･null･],println
+1 s,System,PrintStream,[･],out,void,[boolean･null･],println
+1 s,System,PrintStream,[･],err,void,[String･null･],println
+1 ,,PrintStream,[･],err,void,[String･null･],println
+1 s,System,,[･],,void,[int･null･],exit
+1 ,,PrintStream,[･],out,void,[boolean･null･],println
+1 s,JOptionPane,,[･],,void,[Component･Object･String･int･null･],showMessageDialog
+2 ,String,,[･],,String,[null･],trim
+1 ,Throwable,,[･],,void,[null･],printStackTrace
+1 s,javax.swing,JOptionPane,[･],JOptionPane,String,[Component･Object･null･],showInputDialog
+2 ,Throwable,,[･],,String,[null･],getMessage
+1 ,Throwable,,[･],,Class,[null･],getClass
+1 s,Double,,[･],,double,[String･null･],parseDouble
+1 s,Integer,,[･],,int,[String･null･],parseInt
+1 ,Throwable,,[･],,Throwable,[null･],getCause
+1 s,javax.swing,JOptionPane,[･],JOptionPane,String,[Component･Object･Object･null･],showInputDialog
+1 s,System,PrintStream,[･],out,void,[int･null･],println
+1 ,,PrintStream,[･],out,void,[double･null･],println
+1 s,System,PrintStream,[･],out,void,[double･null･],println
+!
+i8368
+#title=Draw.java8368
+4 ,Graphics2D,,[･],,void,[Color･null･],setColor
+1 ,JMenu,,[･],,JMenuItem,[JMenuItem･null･],add
+2 ,Image,,[･],,int,[ImageObserver･null･],getHeight
+2 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,ImageIcon,,[･],,Image,[null･],getImage
+2 ,FontMetrics,,[･],,int,[null･],getDescent
+1 ,Draw,,[･],,void,[null･],setPenRadius
+1 ,JLabel,,[･],,void,[MouseListener･null･],addMouseListener
+2 s,Math,,[･],,double,[double･null･],abs
+2 ,JFrame,,[･],,void,[KeyListener･null･],addKeyListener
+1 ,WritableRaster,,[･],,WritableRaster,[int･int･int･int･int･int･int[]･null･],createWritableChild
+1 ,Graphics2D,,[･],,void,[Color･null･],setXORMode
+3 ,Graphics2D,,[･],,void,[int･int･int･int･null･],fillRect
+2 ,Graphics2D,,[･],,boolean,[Image･int･int･int･int･ImageObserver･null･],drawImage
+2 ,ImageIcon,,[･],,int,[null･],getImageLoadStatus
+1 ,String,,[･],,String,[int･null･],substring
+1 ,JFrame,,[･],,void,[int･null･],setDefaultCloseOperation
+1 ,Draw,,[･],,void,[double･double･double･null･],filledSquare
+2 ,BufferedImage,,[･],,Graphics2D,[null･],createGraphics
+1 ,Draw,,[･],,void,[double･null･],setPenRadius
+2 s,ImageIO,,[･],,boolean,[RenderedImage･String･File･null･],write
+1 ,,Thread,[null･],currentThread,void,[long･null･],sleep
+1 ,LinkedList,,[･],,void,[Character･null･],addFirst
+6 ,Graphics2D,,[･],,void,[Shape･null･],fill
+1 ,Graphics2D,,[･],,void,[Stroke･null･],setStroke
+1 ,,Toolkit,[null･],getDefaultToolkit,int,[null･],getMenuShortcutKeyMask
+1 ,DirectColorModel,,[･],,int,[null･],getBlueMask
+1 ,JMenuItem,,[･],,void,[ActionListener･null･],addActionListener
+1 ,JFrame,,[･],,void,[int･int･null･],setLocation
+2 ,String,String,[null･],toLowerCase,boolean,[Object･null･],equals
+3 ,Graphics2D,,[･],,boolean,[Image･int･int･ImageObserver･null･],drawImage
+1 ,FileDialog,,[･],,void,[boolean･null･],setVisible
+1 ,FontMetrics,,[･],,int,[String･null･],stringWidth
+2 ,GeneralPath,,[･],,void,[float･float･null･],moveTo
+1 ,LinkedList,,[･],,boolean,[null･],isEmpty
+1 ,JFrame,,[･],,void,[boolean･null･],setResizable
+1 ,KeyEvent,,[･],,char,[null･],getKeyChar
+1 ,JFrame,,[･],,void,[null･],pack
+1 ,JMenuBar,,[･],,JMenu,[JMenu･null･],add
+2 ,FileDialog,,[･],,String,[null･],getFile
+1 ,Draw,,[･],,void,[double･double･double･null･],square
+1 ,DirectColorModel,,[･],,int,[null･],getGreenMask
+2 ,,PrintStream,[･],out,void,[String･null･],println
+14 s,Math,,[･],,long,[double･null･],round
+1 s,Toolkit,Toolkit,[null･],getDefaultToolkit,int,[null･],getMenuShortcutKeyMask
+2 ,GeneralPath,,[･],,void,[null･],closePath
+2 ,IOException,,[･],,void,[null･],printStackTrace
+1 ,FileDialog,,[･],,String,[null･],getDirectory
+2 ,Graphics2D,,[･],,FontMetrics,[null･],getFontMetrics
+1 ,JFrame,,[･],,void,[MouseMotionListener･null･],addMouseMotionListener
+1 ,Draw,,[･],,void,[double･double･double･double･double･null･],arc
+1 ,Draw,,[･],,void,[double･double･double･null･],circle
+6 s,Math,,[･],,double,[double･null･],toRadians
+1 s,KeyStroke,,[･],,KeyStroke,[int･int･null･],getKeyStroke
+1 ,Graphics2D,,[･],,void,[Map･null･],addRenderingHints
+3 ,MouseEvent,,[･],,int,[null･],getX
+4 ,Draw,,[･],,void,[Color･null･],setPenColor
+1 ,JMenuItem,,[･],,void,[KeyStroke･null･],setAccelerator
+3 ,MouseEvent,,[･],,int,[null･],getY
+7 ,Graphics2D,,[･],,void,[Shape･null･],draw
+1 ,BufferedImage,,[･],,WritableRaster,[null･],getRaster
+1 s,Thread,Thread,[null･],currentThread,void,[long･null･],sleep
+2 ,JFrame,,[･],,void,[boolean･null･],setVisible
+2 ,Draw,,[･],,void,[double･double･String･null･],text
+2 ,Graphics2D,,[･],,void,[String･float･float･null･],drawString
+1 ,Draw,,[･],,void,[double[]･double[]･null･],filledPolygon
+1 ,BufferedImage,,[･],,ColorModel,[null･],getColorModel
+1 ,DirectColorModel,,[･],,int,[null･],getPixelSize
+1 ,JFrame,,[･],,void,[Container･null･],setContentPane
+1 ,LinkedList,,[･],,Character,[null･],removeLast
+1 ,Draw,,[･],,void,[int･int･null･],setCanvasSize
+1 ,JFrame,,[･],,void,[String･null･],setTitle
+1 ,JFrame,,[･],,void,[boolean･null･],setFocusable
+2 ,GeneralPath,,[･],,void,[float･float･null･],lineTo
+2 ,,String,[null･],toLowerCase,boolean,[Object･null･],equals
+1 ,JFrame,,[･],,void,[null･],repaint
+1 ,DirectColorModel,,[･],,int,[null･],getRedMask
+2 ,Image,,[･],,int,[ImageObserver･null･],getWidth
+1 ,JLabel,,[･],,void,[MouseMotionListener･null･],addMouseMotionListener
+1 ,JFrame,,[･],,boolean,[null･],requestFocusInWindow
+1 ,JFrame,,[･],,void,[MouseListener･null･],addMouseListener
+2 ,MouseEvent,,[･],,int,[null･],getButton
+1 ,JFrame,,[･],,void,[JMenuBar･null･],setJMenuBar
+6 ,Graphics2D,,[･],,void,[double･double･double･null･],rotate
+1 ,String,,[･],,int,[int･null･],lastIndexOf
+1 ,Graphics2D,,[･],,void,[null･],setPaintMode
+1 ,RenderingHints,,[･],,Object,[Object･Object･null･],put
+2 ,Graphics2D,,[･],,void,[Font･null･],setFont
+!
+i8369
+#title=DynamicAllocation.java8369
+2 ,,PrintStream,[･],out,void,[char[]･null･],println
+2 s,System,PrintStream,[･],out,void,[char[]･null･],println
+!
+i8370
+#title=GraphicsPanel.java8370
+1 ,JTextField,,[･],,void,[ActionListener･null･],addActionListener
+1 ,JFileChooser,,[･],,void,[FileFilter･null･],setFileFilter
+1 ,,Toolkit,[null･],getDefaultToolkit,PrintJob,[Frame･String･Properties･null･],getPrintJob
+1 ,Graphics2D,,[･],,void,[Color･null･],setColor
+1 ,File,,[･],,boolean,[null･],isDirectory
+1 ,PrintJob,,[･],,Dimension,[null･],getPageDimension
+1 ,PrintJob,,[･],,void,[null･],end
+1 ,JFileChooser,,[･],,void,[File･null･],setCurrentDirectory
+1 ,JFileChooser,,[･],,int,[Component･null･],showOpenDialog
+1 s,Toolkit,Toolkit,[null･],getDefaultToolkit,PrintJob,[Frame･String･Properties･null･],getPrintJob
+1 ,File,,[･],,String,[null･],getAbsolutePath
+1 ,JTextField,,[･],,void,[String･null･],setText
+1 ,Graphics,,[･],,void,[int･int･null･],translate
+1 s,Math,,[･],,int,[int･int･null･],min
+2 ,JPanel,,[･],,void,[Component･Object･null･],add
+1 ,Graphics2D,,[･],,void,[int･int･int･int･null･],fillRect
+1 ,Graphics,,[･],,boolean,[Image･int･int･ImageObserver･null･],drawImage
+1 ,HashSet,,[･],,boolean,[Object･null･],contains
+1 ,String,,[･],,String,[int･null･],substring
+2 ,MouseEvent,,[･],,Component,[null･],getComponent
+3 ,HashSet,,[･],,boolean,[String･null･],add
+2 ,JFileChooser,,[･],,File,[null･],getSelectedFile
+1 ,Graphics2D,,[･],,void,[double･double･null･],scale
+1 ,Graphics,,[･],,void,[String･int･int･null･],drawString
+1 ,BufferedImage,,[･],,int,[null･],getWidth
+1 ,JButton,,[･],,void,[ActionListener･null･],addActionListener
+1 ,BufferedImage,,[･],,int,[null･],getHeight
+1 ,BufferedImage,,[･],,Graphics,[null･],getGraphics
+1 ,String,,[･],,int,[int･null･],lastIndexOf
+1 ,PrintJob,,[･],,Graphics,[null･],getGraphics
+!
+i8371
+#title=HexDump.java8371
+1 s,Integer,,[･],,int,[String･null･],parseInt
+!
+i8372
+#title=Image.java8372
+1 ,Graphics2D,,[･],,void,[int･int･null･],translate
+1 ,Image,,[･],,void,[int･int･int･int･Image･null･],copy
+1 ,Graphics,,[･],,void,[Color･null･],setColor
+1 ,Graphics,,[･],,void,[int･int･int･int･null･],drawRect
+1 ,Graphics,,[･],,boolean,[Image･int･int･int･int･ImageObserver･null･],drawImage
+2 ,Graphics2D,,[･],,void,[double･double･null･],scale
+2 ,Graphics,,[･],,void,[int･int･null･],translate
+2 ,Graphics2D,,[･],,void,[double･double･double･null･],rotate
+1 ,Graphics2D,,[･],,void,[int･int･int･int･null･],clipRect
+4 s,Math,,[･],,int,[int･int･null･],min
+!
+i8373
+#title=Image2.java8373
+1 ,Graphics,,[･],,void,[Color･null･],setColor
+1 ,Graphics,,[･],,void,[int･int･int･int･null･],drawRect
+1 ,Graphics,,[･],,boolean,[Image･int･int･int･int･ImageObserver･null･],drawImage
+2 ,Graphics2D,,[･],,void,[double･double･null･],scale
+2 ,Graphics,,[･],,void,[int･int･null･],translate
+2 ,Graphics2D,,[･],,void,[double･double･double･null･],rotate
+!
+i8374
+#title=ImageRaster (2).java8374
+1 ,Image,,[･],,int,[ImageObserver･null･],getHeight
+1 ,HashMap,,[･],,boolean,[Object･null･],containsKey
+1 ,Applet,,[･],,URL,[null･],getDocumentBase
+1 ,MediaTracker,,[･],,void,[Image･int･null･],addImage
+1 ,ImageRaster,,[･],,void,[int･int･int･null･],setRGB
+1 s,Toolkit,Toolkit,[null･],getDefaultToolkit,Image,[String･null･],getImage
+1 ,MediaTracker,,[･],,void,[null･],waitForAll
+4 s,Math,,[･],,int,[int･int･null･],min
+2 s,System,PrintStream,[･],err,void,[String･null･],println
+1 ,HashMap,,[･],,Image,[Object･null･],get
+2 ,,PrintStream,[･],err,void,[String･null･],println
+1 ,Image,,[･],,int,[ImageObserver･null･],getWidth
+1 ,Graphics,,[･],,boolean,[Image･int･int･int･int･ImageObserver･null･],drawImage
+1 ,,Toolkit,[null･],getDefaultToolkit,Image,[String･null･],getImage
+1 ,HashMap,,[･],,Image,[String･Image･null･],put
+1 ,Applet,,[･],,Image,[URL･String･null･],getImage
+2 ,Color,,[･],,int,[null･],getRGB
+!
+i8375
+#title=ImageRaster.java8375
+1 ,Image,,[･],,int,[ImageObserver･null･],getHeight
+1 ,HashMap,,[･],,boolean,[Object･null･],containsKey
+1 ,Applet,,[･],,URL,[null･],getDocumentBase
+1 ,MediaTracker,,[･],,void,[Image･int･null･],addImage
+1 s,Toolkit,Toolkit,[null･],getDefaultToolkit,Image,[String･null･],getImage
+1 ,MediaTracker,,[･],,void,[null･],waitForAll
+2 s,System,PrintStream,[･],err,void,[String･null･],println
+1 ,HashMap,,[･],,Image,[Object･null･],get
+2 ,,PrintStream,[･],err,void,[String･null･],println
+1 ,Image,,[･],,int,[ImageObserver･null･],getWidth
+1 ,Graphics,,[･],,boolean,[Image･int･int･int･int･ImageObserver･null･],drawImage
+1 ,,Toolkit,[null･],getDefaultToolkit,Image,[String･null･],getImage
+1 ,HashMap,,[･],,Image,[String･Image･null･],put
+1 ,Applet,,[･],,Image,[URL･String･null･],getImage
+!
+i8376
+#title=In.java8376
+1 ,Scanner,,[･],,double,[null･],nextDouble
+2 ,URLConnection,,[･],,InputStream,[null･],getInputStream
+23 ,,PrintStream,[･],out,void,[String･null･],println
+1 ,Scanner,,[･],,String,[null･],next
+23 s,System,PrintStream,[･],out,void,[String･null･],println
+6 ,Scanner,,[･],,Scanner,[Locale･null･],useLocale
+1 ,,Scanner,[String･null･],useDelimiter,String,[null･],next
+7 ,In,,[･],,String,[null･],readAll
+1 ,Scanner,,[･],,boolean,[null･],hasNext
+7 ,In,,[･],,boolean,[null･],isEmpty
+1 ,Scanner,,[･],,String,[null･],nextLine
+1 ,File,,[･],,boolean,[null･],exists
+10 s,System,PrintStream,[･],out,void,[null･],println
+1 ,Scanner,,[･],,int,[null･],nextInt
+2 ,String,,[･],,boolean,[String･null･],equalsIgnoreCase
+2 ,String,,[･],,boolean,[Object･null･],equals
+5 ,In,,[･],,String,[null･],readLine
+1 ,Scanner,,[･],,float,[null･],nextFloat
+1 ,,PrintStream,[･],out,void,[char･null･],print
+2 ,Scanner,,[･],,boolean,[null･],hasNextLine
+1 ,In,,[･],,String,[null･],readString
+1 ,Scanner,,[･],,long,[null･],nextLong
+1 ,Scanner,,[･],,String,[String･int･null･],findWithinHorizon
+1 ,String,,[･],,char,[int･null･],charAt
+1 ,In,,[･],,char,[null･],readChar
+6 ,,String,[null･],trim,String[],[String･null･],split
+1 ,Scanner,Scanner,[String･null･],useDelimiter,String,[null･],next
+4 s,System,PrintStream,[･],err,void,[String･null･],println
+10 ,,PrintStream,[･],out,void,[null･],println
+4 ,,PrintStream,[･],err,void,[String･null･],println
+1 ,Socket,,[･],,InputStream,[null･],getInputStream
+1 ,Scanner,,[･],,byte,[null･],nextByte
+8 s,System,PrintStream,[･],out,void,[Object･null･],println
+1 s,System,PrintStream,[･],out,void,[char･null･],print
+2 s,Double,,[･],,double,[String･null･],parseDouble
+2 s,Integer,,[･],,int,[String･null･],parseInt
+1 ,Scanner,,[･],,void,[null･],close
+8 ,,PrintStream,[･],out,void,[Object･null･],println
+2 ,URL,,[･],,URLConnection,[null･],openConnection
+!
+i8377
+#title=KWIC.java8377
+5 ,PropertyChangeSupport,,[･],,void,[String･boolean･boolean･null･],firePropertyChange
+!
+i8378
+#title=KWICTest.java8378
+2 ,,PrintStream,[･],out,void,[char[]･null･],println
+2 s,System,PrintStream,[･],out,void,[char[]･null･],println
+!
+i8379
+#title=LectureController.java8379
+1 ,JButton,,[･],,void,[ActionListener･null･],addActionListener
+1 ,JFrame,,[･],,void,[boolean･null･],setVisible
+2 ,,PrintStream,[･],out,void,[char[]･null･],println
+1 ,JFrame,,[･],,void,[int･null･],setDefaultCloseOperation
+2 s,System,PrintStream,[･],out,void,[char[]･null･],println
+1 ,JFrame,,[･],,Component,[Component･null･],add
+1 ,ActionEvent,,[･],,String,[null･],getActionCommand
+1 ,JFrame,,[･],,void,[null･],pack
+!
+i8380
+#title=Line.java8380
+1 ,Graphics2D,,[･],,void,[Color･null･],setColor
+1 ,Graphics2D,,[･],,void,[Stroke･null･],setStroke
+1 ,Rectangle,,[･],,boolean,[Line2D･null･],intersectsLine
+2 ,Line2D,,[･],,double,[null･],getY1
+2 ,Line2D,,[･],,double,[null･],getX1
+2 ,Line2D,,[･],,double,[null･],getY2
+2 ,Line2D,,[･],,double,[null･],getX2
+2 s,Math,,[･],,int,[int･int･null･],min
+3 ,Line2D,,[･],,void,[double･double･double･double･null･],setLine
+3 ,Line2D,,[･],,Rectangle,[null･],getBounds
+1 ,Graphics2D,,[･],,void,[Key･Object･null･],setRenderingHint
+1 ,Graphics2D,,[･],,void,[Shape･null･],draw
+2 s,Math,,[･],,int,[int･null･],abs
+!
+i8381
+#title=Money.java8381
+3 s,String,,[･],,String,[double･null･],valueOf
+1 ,BigDecimal,,[･],,BigDecimal,[BigDecimal･null･],subtract
+3 ,Money,,[･],,BigDecimal,[null･],getValue
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 ,BigDecimal,,[･],,BigDecimal,[BigDecimal･null･],multiply
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+2 ,BigDecimal,,[･],,int,[BigDecimal･null･],compareTo
+3 ,BigDecimal,,[･],,BigDecimal,[int･RoundingMode･null･],setScale
+1 ,BigDecimal,,[･],,BigDecimal,[BigDecimal･null･],add
+1 ,BigDecimal,,[･],,BigDecimal,[BigDecimal･int･RoundingMode･null･],divide
+1 ,BigDecimal,,[･],,double,[null･],doubleValue
+!
+i8382
+#title=MYear.java8382
+1 ,MYear,,[･],,void,[int･null･],setValue
+3 ,,PrintStream,[･],out,void,[String･null･],println
+1 ,MYear,,[･],,int,[null･],getValue
+3 s,System,PrintStream,[･],out,void,[String･null･],println
+!
+i8383
+#title=NCBIQBlastServiceDemo.java8383
+1 ,FileWriter,,[･],,void,[String･null･],write
+3 ,,PrintStream,[･],out,void,[String･null･],println
+3 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,File,,[･],,String,[null･],getAbsolutePath
+1 ,Exception,,[･],,String,[null･],getMessage
+1 s,Thread,,[･],,void,[long･null･],sleep
+1 s,System,,[･],,String,[String･null･],getProperty
+1 ,Exception,,[･],,void,[null･],printStackTrace
+1 ,BufferedReader,,[･],,String,[null･],readLine
+!
+i8384
+#title=NIP.java8384
+1 ,JMenu,,[･],,JMenuItem,[JMenuItem･null･],add
+1 ,StatusPanel,,[･],,void,[String･null･],setText
+1 ,JToggleButton,,[･],,void,[boolean･null･],setSelected
+1 ,JMenu,,[･],,void,[null･],removeAll
+3 ,PanelAssociatedRadioButton,,[･],,boolean,[null･],isSelected
+1 ,JMenuItem,,[･],,void,[ActionListener･null･],addActionListener
+1 ,StatusPanel,,[･],,String,[null･],getText
+3 ,ButtonGroup,,[･],,Enumeration,[null･],getElements
+1 ,Box,,[･],,Component,[Component･null･],add
+1 s,System,,[･],,void,[int･null･],exit
+7 ,JPanel,,[･],,void,[Component･Object･null･],add
+3 ,Enumeration,,[･],,AbstractButton,[null･],nextElement
+6 ,JPanel,,[･],,Component,[Component･null･],add
+1 ,JMenuItem,,[･],,void,[String･null･],setText
+3 ,PanelAssociatedRadioButton,,[･],,GraphicsPanel,[null･],getPanel
+1 ,JPanel,,[･],,void,[boolean･null･],setDoubleBuffered
+3 ,Enumeration,,[･],,boolean,[null･],hasMoreElements
+1 ,JPanel,,[･],,void,[LayoutManager･null･],setLayout
+2 ,ButtonGroup,,[･],,void,[AbstractButton･null･],add
+1 ,JMenuBar,,[･],,JMenu,[JMenu･null･],add
+!
+i8385
+#title=Out.java8385
+1 ,PrintWriter,,[･],,void,[float･null･],print
+2 ,Out,,[･],,void,[Object･null･],println
+1 ,PrintWriter,,[･],,void,[null･],println
+1 ,PrintWriter,,[･],,void,[double･null･],print
+1 ,PrintWriter,,[･],,void,[boolean･null･],print
+1 ,PrintWriter,,[･],,void,[float･null･],println
+1 ,PrintWriter,,[･],,void,[char･null･],print
+1 ,PrintWriter,,[･],,void,[boolean･null･],println
+1 ,PrintWriter,,[･],,void,[char･null･],println
+1 ,PrintWriter,,[･],,void,[double･null･],println
+3 ,IOException,,[･],,void,[null･],printStackTrace
+2 ,PrintWriter,,[･],,void,[int･null･],print
+1 ,PrintWriter,,[･],,void,[Object･null･],println
+1 ,PrintWriter,,[･],,void,[null･],close
+1 ,PrintWriter,,[･],,void,[long･null･],println
+1 ,PrintWriter,,[･],,void,[Object･null･],print
+2 ,Out,,[･],,void,[null･],close
+2 ,PrintWriter,,[･],,void,[int･null･],println
+11 ,PrintWriter,,[･],,void,[null･],flush
+1 ,PrintWriter,,[･],,void,[long･null･],print
+2 ,PrintWriter,,[･],,PrintWriter,[Locale･String･Object[]･null･],printf
+1 ,Socket,,[･],,OutputStream,[null･],getOutputStream
+!
+i8386
+#title=Picture.java8386
+2 ,FileDialog,,[･],,String,[null･],getFile
+1 ,JMenu,,[･],,JMenuItem,[JMenuItem･null･],add
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,File,,[･],,String,[null･],getName
+1 s,Toolkit,Toolkit,[null･],getDefaultToolkit,int,[null･],getMenuShortcutKeyMask
+1 s,ImageIO,,[･],,BufferedImage,[URL･null･],read
+1 ,File,,[･],,boolean,[null･],isFile
+1 ,IOException,,[･],,void,[null･],printStackTrace
+1 ,FileDialog,,[･],,String,[null･],getDirectory
+1 ,BufferedImage,,[･],,int,[ImageObserver･null･],getWidth
+2 ,BufferedImage,,[･],,void,[int･int･int･null･],setRGB
+2 ,Picture,,[･],,int,[null･],width
+1 ,Picture,,[･],,void,[null･],show
+2 ,String,,[･],,boolean,[Object･null･],equals
+1 ,String,,[･],,String,[int･null･],substring
+1 ,JFrame,,[･],,void,[int･null･],setDefaultCloseOperation
+1 s,KeyStroke,,[･],,KeyStroke,[int･int･null･],getKeyStroke
+1 ,Picture,,[･],,Color,[int･int･null･],get
+1 ,JMenuItem,,[･],,void,[KeyStroke･null･],setAccelerator
+1 s,ImageIO,,[･],,boolean,[RenderedImage･String･File･null･],write
+1 ,JFrame,,[･],,void,[boolean･null･],setVisible
+1 ,,Toolkit,[null･],getDefaultToolkit,int,[null･],getMenuShortcutKeyMask
+1 ,JFrame,,[･],,void,[Container･null･],setContentPane
+1 ,Object,,[･],,Class,[null･],getClass
+1 ,JMenuItem,,[･],,void,[ActionListener･null･],addActionListener
+2 ,JFrame,,[･],,void,[String･null･],setTitle
+1 ,JFrame,,[･],,void,[null･],repaint
+2 ,Picture,,[･],,int,[null･],height
+1 ,FileDialog,,[･],,void,[boolean･null･],setVisible
+1 s,ImageIO,,[･],,BufferedImage,[File･null･],read
+1 ,String,,[･],,String,[null･],toLowerCase
+1 ,,PrintStream,[･],out,PrintStream,[String･Object[]･null･],printf
+1 ,JFrame,,[･],,void,[JMenuBar･null･],setJMenuBar
+1 ,JFrame,,[･],,void,[boolean･null･],setResizable
+1 ,String,,[･],,int,[int･null･],lastIndexOf
+2 ,BufferedImage,,[･],,int,[int･int･null･],getRGB
+2 ,Color,,[･],,int,[null･],getRGB
+1 s,System,PrintStream,[･],out,PrintStream,[String･Object[]･null･],printf
+1 ,BufferedImage,,[･],,int,[ImageObserver･null･],getHeight
+1 ,JMenuBar,,[･],,JMenu,[JMenu･null･],add
+1 ,JFrame,,[･],,void,[null･],pack
+!
+i8387
+#title=PictureDump.java8387
+2 s,Integer,,[･],,int,[String･null･],parseInt
+!
+i8388
+#title=Polygon.java8388
+4 ,Graphics2D,,[･],,void,[Color･null･],setColor
+1 ,Graphics2D,,[･],,void,[int･int･null･],translate
+1 ,Graphics2D,,[･],,void,[Shape･null･],fill
+2 ,Graphics2D,,[･],,void,[Stroke･null･],setStroke
+1 ,GeneralPath,,[･],,String,[null･],toString
+1 ,GeneralPath,,[･],,boolean,[double･double･null･],contains
+1 ,GeneralPath,,[･],,void,[float･float･null･],moveTo
+4 ,GeneralPath,,[･],,Rectangle,[null･],getBounds
+1 ,Graphics2D,,[･],,void,[Key･Object･null･],setRenderingHint
+1 ,GeneralPath,,[･],,void,[null･],closePath
+1 ,GeneralPath,,[･],,void,[float･float･null･],lineTo
+3 ,Graphics2D,,[･],,void,[Shape･null･],draw
+!
+i8389
+#title=Printer.java8389
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+!
+i8390
+#title=ReadsFile.java8390
+3 ,,PrintStream,[･],out,void,[String･null･],println
+3 s,System,PrintStream,[･],out,void,[String･null･],println
+2 ,FileInputStream,,[･],,int,[null･],read
+!
+i8391
+#title=ReadsLines.java8391
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,BufferedReader,,[･],,String,[null･],readLine
+!
+i8392
+#title=ResizeJButton.java8392
+1 ,ImageIcon,,[･],,int,[null･],getIconWidth
+1 ,ImageIcon,,[･],,Image,[null･],getImage
+1 ,ImageIcon,,[･],,int,[null･],getIconHeight
+1 ,Graphics,,[･],,boolean,[Image･int･int･int･int･int･int･int･int･ImageObserver･null･],drawImage
+!
+i8393
+#title=ResizeJLabel.java8393
+1 ,ImageIcon,,[･],,int,[null･],getIconWidth
+1 ,ImageIcon,,[･],,Image,[null･],getImage
+1 ,ImageIcon,,[･],,int,[null･],getIconHeight
+1 ,Graphics,,[･],,boolean,[Image･int･int･int･int･int･int･int･int･ImageObserver･null･],drawImage
+!
+i8394
+#title=RGB.java8394
+1 ,JButton,,[･],,void,[ActionListener･null･],addActionListener
+1 ,JFrame,,[･],,void,[boolean･null･],setVisible
+1 ,JFrame,,[･],,void,[int･null･],setDefaultCloseOperation
+1 ,JFrame,,[･],,Component,[Component･null･],add
+1 ,JFrame,,[･],,void,[null･],pack
+!
+i8395
+#title=SequenceComparer.java8395
+2 ,,PrintStream,[･],out,void,[char[]･null･],println
+2 ,ArrayList,,[･],,void,[int･Integer･null･],add
+2 ,SequenceComparer,,[･],,DNASequence,[null･],getConsensusSequence
+1 ,ArrayList,,[･],,boolean,[Object･null･],contains
+2 ,StringBuilder,,[･],,StringBuilder,[Object･null･],append
+2 ,,PrintStream,[･],out,void,[int･null･],println
+2 s,System,PrintStream,[･],out,void,[char[]･null･],println
+1 ,StringBuilder,,[･],,StringBuilder,[char･null･],append
+1 ,ArrayList,,[･],,int,[null･],size
+1 ,StringBuilder,,[･],,String,[null･],toString
+2 s,System,PrintStream,[･],out,void,[int･null･],println
+2 ,SequenceComparer,,[･],,int,[null･],getDifferenceCount
+!
+i8396
+#title=Shape.java8396
+4 ,Graphics2D,,[･],,void,[Color･null･],setColor
+1 ,Graphics2D,,[･],,void,[Shape･null･],fill
+2 ,RectangularShape,,[･],,void,[double･double･double･double･null･],setFrame
+1 ,Graphics2D,,[･],,void,[Stroke･null･],setStroke
+1 ,Graphics2D,,[･],,void,[Key･Object･null･],setRenderingHint
+3 ,RectangularShape,,[･],,Rectangle,[null･],getBounds
+2 s,Math,,[･],,int,[int･int･null･],min
+3 ,Graphics2D,,[･],,void,[Shape･null･],draw
+1 ,RectangularShape,,[･],,boolean,[double･double･null･],contains
+2 s,Math,,[･],,int,[int･null･],abs
+!
+i8397
+#title=SimpleFrame (2).java8397
+1 ,JFrame,,[･],,void,[boolean･null･],setVisible
+3 ,JPanel,,[･],,Component,[Component･null･],add
+1 ,JFrame,,[･],,Component,[Component･null･],add
+1 ,JFrame,,[･],,void,[null･],pack
+!
+i8398
+#title=SimpleFrame.java8398
+1 ,JFrame,,[･],,void,[boolean･null･],setVisible
+5 ,JPanel,,[･],,Component,[Component･null･],add
+1 ,JFrame,,[･],,Component,[Component･null･],add
+1 ,JFrame,,[･],,void,[null･],pack
+!
+i8399
+#title=SomeExceptions.java8399
+1 ,Object,,[･],,String,[null･],toString
+1 s,System,PrintStream,[･],out,void,[Object･null･],println
+4 ,,PrintStream,[･],out,void,[String･null･],println
+4 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,,PrintStream,[･],out,void,[Object･null･],println
+1 ,RuntimeException,,[･],,void,[null･],printStackTrace
+1 ,RuntimeException,,[･],,Class,[null･],getClass
+!
+i8400
+#title=Sound.java8400
+1 ,Applet,,[･],,AudioClip,[URL･String･null･],getAudioClip
+1 ,HashMap,,[･],,boolean,[Object･null･],containsKey
+1 ,Applet,,[･],,URL,[null･],getDocumentBase
+1 ,AudioClip,,[･],,void,[null･],loop
+1 ,HashMap,,[･],,AudioClip,[String･AudioClip･null･],put
+1 ,HashMap,,[･],,AudioClip,[Object･null･],get
+1 ,AudioClip,,[･],,void,[null･],play
+1 ,AudioClip,,[･],,void,[null･],stop
+1 s,java.applet,Applet,[･],Applet,AudioClip,[URL･null･],newAudioClip
+1 s,System,PrintStream,[･],err,void,[String･null･],println
+1 ,,Applet,[･],Applet,AudioClip,[URL･null･],newAudioClip
+1 ,,PrintStream,[･],err,void,[String･null･],println
+!
+i8401
+#title=StdArrayIO.java8401
+1 s,StdArrayIO,,[･],,boolean[][],[null･],readBoolean2D
+1 s,StdArrayIO,,[･],,double[][],[null･],readDouble2D
+1 s,StdArrayIO,,[･],,void,[double[]･null･],print
+1 s,StdArrayIO,,[･],,void,[boolean[][]･null･],print
+1 s,StdArrayIO,,[･],,double[],[null･],readDouble1D
+1 s,StdArrayIO,,[･],,void,[double[][]･null･],print
+!
+i8402
+#title=StdAudio.java8402
+2 s,AudioSystem,,[･],,int,[AudioInputStream･Type･File･null･],write
+2 ,,PrintStream,[･],out,void,[String･null･],println
+1 ,SourceDataLine,,[･],,void,[AudioFormat･int･null･],open
+2 s,System,PrintStream,[･],out,void,[String･null･],println
+2 ,MalformedURLException,,[･],,void,[null･],printStackTrace
+2 s,Applet,,[･],,AudioClip,[URL･null･],newAudioClip
+4 ,String,,[･],,boolean,[String･null･],endsWith
+1 ,SourceDataLine,,[･],,int,[byte[]･int･int･null･],write
+1 ,SourceDataLine,,[･],,void,[null･],start
+1 ,File,,[･],,boolean,[null･],exists
+1 s,AudioSystem,,[･],,AudioInputStream,[URL･null･],getAudioInputStream
+1 s,StdAudio,,[･],,void,[double[]･null･],play
+1 ,SourceDataLine,,[･],,void,[null･],stop
+1 ,AudioClip,,[･],,void,[null･],play
+2 ,Exception,,[･],,String,[null･],getMessage
+1 s,Math,,[･],,double,[double･double･null･],pow
+2 ,AudioInputStream,,[･],,int,[null･],available
+2 ,File,,[･],,URI,[null･],toURI
+1 ,AudioClip,,[･],,void,[null･],loop
+1 s,AudioSystem,,[･],,Line,[Info･null･],getLine
+1 s,StdAudio,,[･],,void,[null･],close
+1 ,SourceDataLine,,[･],,void,[null･],drain
+2 ,AudioInputStream,,[･],,int,[byte[]･null･],read
+3 s,System,,[･],,void,[int･null･],exit
+1 s,System,PrintStream,[･],out,void,[Object･null･],println
+2 ,File,,[･],,boolean,[null･],canRead
+1 s,AudioSystem,,[･],,AudioInputStream,[File･null･],getAudioInputStream
+1 ,,PrintStream,[･],out,void,[Object･null･],println
+2 s,Math,,[･],,double,[double･null･],sin
+1 s,StdAudio,,[･],,void,[double･null･],play
+!
+i8403
+#title=StdIn.java8403
+1 s,StdIn,,[･],,double,[null･],readDouble
+1 ,Scanner,,[･],,double,[null･],nextDouble
+8 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,StdIn,,[･],,int,[null･],readInt
+1 ,Scanner,,[･],,String,[null･],next
+8 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,Scanner,,[･],,Scanner,[Locale･null･],useLocale
+1 ,,Scanner,[String･null･],useDelimiter,String,[null･],next
+1 ,Scanner,,[･],,boolean,[null･],hasNext
+1 ,Scanner,,[･],,String,[null･],nextLine
+4 s,System,PrintStream,[･],out,void,[null･],println
+1 ,Scanner,,[･],,int,[null･],nextInt
+2 ,String,,[･],,boolean,[String･null･],equalsIgnoreCase
+2 ,String,,[･],,boolean,[Object･null･],equals
+1 ,Scanner,,[･],,float,[null･],nextFloat
+2 ,fields,String,[null･],trim,String[],[String･null･],split
+2 ,Scanner,,[･],,boolean,[null･],hasNextLine
+1 ,Scanner,,[･],,long,[null･],nextLong
+1 ,Scanner,,[･],,String,[String･int･null･],findWithinHorizon
+1 ,String,,[･],,char,[int･null･],charAt
+3 ,,String,[null･],trim,String[],[String･null･],split
+1 ,Scanner,Scanner,[String･null･],useDelimiter,String,[null･],next
+1 s,StdIn,,[･],,boolean,[null･],readBoolean
+4 ,,PrintStream,[･],out,void,[null･],println
+1 ,Scanner,,[･],,byte,[null･],nextByte
+1 s,Double,,[･],,double,[String･null･],parseDouble
+1 s,Integer,,[･],,int,[String･null･],parseInt
+1 s,StdIn,,[･],,String,[null･],readString
+1 ,Scanner,,[･],,short,[null･],nextShort
+!
+i8404
+#title=StdOut.java8404
+1 ,PrintWriter,,[･],,void,[float･null･],print
+1 ,PrintWriter,,[･],,void,[null･],println
+1 ,PrintWriter,,[･],,void,[double･null･],print
+1 ,PrintWriter,,[･],,void,[boolean･null･],print
+1 s,StdOut,,[･],,void,[boolean･null･],println
+1 ,PrintWriter,,[･],,void,[float･null･],println
+1 ,PrintWriter,,[･],,void,[char･null･],print
+1 ,PrintWriter,,[･],,void,[boolean･null･],println
+1 ,PrintWriter,,[･],,void,[char･null･],println
+1 s,StdOut,,[･],,void,[String･Object[]･null･],printf
+1 ,PrintWriter,,[･],,void,[double･null･],println
+3 ,PrintWriter,,[･],,void,[int･null･],print
+1 s,StdOut,,[･],,void,[int･null･],println
+1 s,System,PrintStream,[･],out,void,[Object･null･],println
+1 ,PrintWriter,,[･],,void,[Object･null･],println
+1 ,PrintWriter,,[･],,void,[null･],close
+1 ,PrintWriter,,[･],,void,[long･null･],println
+1 ,,PrintStream,[･],out,void,[Object･null･],println
+1 ,PrintWriter,,[･],,void,[Object･null･],print
+3 ,PrintWriter,,[･],,void,[int･null･],println
+12 ,PrintWriter,,[･],,void,[null･],flush
+1 ,PrintWriter,,[･],,void,[long･null･],print
+2 ,PrintWriter,,[･],,PrintWriter,[Locale･String･Object[]･null･],printf
+1 s,StdOut,,[･],,void,[Object･null･],println
+!
+i8405
+#title=StdRandom.java8405
+1 s,StdRandom,,[･],,void,[long･null･],setSeed
+1 ,Random,,[･],,double,[null･],nextDouble
+1 s,Math,,[･],,double,[double･null･],tan
+1 s,Math,,[･],,double,[double･null･],sqrt
+4 s,Math,,[･],,double,[double･null･],log
+1 s,Integer,,[･],,int,[String･null･],parseInt
+1 s,Math,,[･],,double,[double･double･null･],pow
+1 s,Math,,[･],,double,[double･null･],ceil
+1 ,Random,,[･],,int,[int･null･],nextInt
+1 s,Math,,[･],,double,[double･null･],exp
+1 s,System,,[･],,long,[null･],currentTimeMillis
+1 s,Long,,[･],,long,[String･null･],parseLong
+!
+i8406
+#title=StdStats.java8406
+5 s,Math,,[･],,double,[double･null･],sqrt
+!
+i8407
+#title=Stopwatch.java8407
+2 s,System,,[･],,long,[null･],currentTimeMillis
+!
+i8408
+#title=Tool.java8408
+1 ,ActionEvent,,[･],,Object,[null･],getSource
+1 ,JMenuItem,,[･],,String,[null･],getText
+!
+i8409
+#title=ViewAsText.java8409
+3 ,BoundedRangeModel,,[･],,int,[null･],getValue
+1 ,BoundedRangeModel,,[･],,void,[ChangeListener･null･],addChangeListener
+1 s,Integer,,[･],,int,[String･null･],parseInt
+1 ,BoundedRangeModel,,[･],,void,[int･null･],setValue
+1 s,NumberFormat,,[･],,NumberFormat,[null･],getIntegerInstance
+!
+i8410
+#title=Views.java8410
+1 ,JFrame,,[･],,void,[boolean･null･],setVisible
+4 ,JPanel,,[･],,Component,[Component･null･],add
+1 ,JFrame,,[･],,Component,[Component･null･],add
+1 ,JFrame,,[･],,void,[null･],pack
+!
+i8411
+#title=ViewText.java8411
+3 ,BoundedRangeModel,,[･],,int,[null･],getValue
+1 ,BoundedRangeModel,,[･],,void,[ChangeListener･null･],addChangeListener
+1 s,Integer,,[･],,int,[String･null･],parseInt
+1 ,BoundedRangeModel,,[･],,void,[int･null･],setValue
+1 s,NumberFormat,,[･],,NumberFormat,[null･],getIntegerInstance
+!
+i8412
+#title=WordFilter.java8412
+5 ,String,,[･],,int,[null･],length
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,String,,[･],,String,[null･],toLowerCase
+2 ,String,,[･],,int,[String･null･],lastIndexOf
+2 ,String,,[･],,String,[int･int･null･],substring
+!
+i8413
+#title=Year.java8413
+1 ,Year,,[･],,void,[int･null･],setYear
+!

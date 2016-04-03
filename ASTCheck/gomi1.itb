@@ -1,0 +1,36 @@
+@description=java source codes
+@title=database_web_1nasi_fnasi
+i1
+#title=Attribute.java1
+1 s,Integer,,[･],,Integer,[String･null･],valueOf
+1 s,Double,,[･],,Double,[String･null･],valueOf
+1 ,Iterator,,[･],,boolean,[null･],hasNext
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+1 ,Attribute,,[･],,int,[null･],getNameHash
+1 ,Iterator,,[･],,Object,[null･],next
+1 ,Attribute,,[･],,int,[null･],getElementType
+1 ,StringBuilder,,[･],,StringBuilder,[String･null･],append
+2 ,Attribute,,[･],,String,[null･],getName
+1 n,GrappaBox,String,[null･],trim,int,[null･],length
+1 ,Attribute,,[･],,Object,[null･],getValue
+1 ,,String,[null･],trim,int,[null･],length
+2 ,String,,[･],,boolean,[Object･null･],equals
+2 ,Object,,[･],,boolean,[Object･null･],equals
+2 ,Attribute,,[･],,String,[null･],getStringValue
+1 ,StringBuilder,,[･],,StringBuilder,[char･null･],append
+1 ,String,,[･],,int,[null･],hashCode
+1 ,StringBuilder,,[･],,String,[null･],toString
+1 ,StringBuilder,,[･],,int,[null･],length
+!
+i2
+#title=test2.java2
+1 ,,PrintStream,[･],out,void,[char[]･null･],println
+1 s,Math,,[･],,double,[double･double･null･],atan2
+2 ,List,,[･],,boolean,[String･null･],add
+1 ,,PrintStream,[･],out,void,[String･null･],println
+1 s,System,PrintStream,[･],out,void,[String･null･],println
+1 n,Rectangle,,[･],,void,[int･int･null･],grow
+1 s,Math,,[･],,double,[null･],random
+1 s,System,PrintStream,[･],out,void,[char[]･null･],println
+!

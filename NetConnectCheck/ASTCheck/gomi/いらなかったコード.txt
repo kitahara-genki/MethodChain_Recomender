@@ -1,0 +1,103 @@
+ASTTest
+//引数が見つかったとき-------------------------------------
+		// パースする
+		ASTParser parser = ASTParser.newParser(AST.JLS8);
+		parser.setBindingsRecovery(true);
+		parser.setStatementsRecovery(true);
+		// 次の setResolveBindings と setEnvironment が重要！！
+	    // setResolveBindings(true) をしておかないとまともに解析はできない．
+	    // setResolveBindings をまともに機能させるために setEnvironment が必要．
+		parser.setResolveBindings(true);
+		// setEnvironment の第一引数にはクラスパスの配列．第二引数にはソースコードを検索するパスの配列
+		// 第三第四については何も考えず null, true ．納得いかない時はIBMのASTPa...
+		parser.setEnvironment(null, null, null, true);
+		parser.setUnitName("Test");// なんでもいいから名前を設定しておく
+
+		parser.setSource(sb.toString().toCharArray());//ソースファイルをパーサにセット
+		parser.setKind(ASTParser.K_COMPILATION_UNIT);
+		CompilationUnit unit = (CompilationUnit) parser.createAST(new NullProgressMonitor());//ASTの作成、unitは
+		// ノードを作る
+		MyVisitor visitor = new MyVisitor();
+		unit.accept(visitor);
+		System.out.println("Done !");
+//---------------------------------------------------
+
+
+MyVisitor
+	/*メソッド定義を抽出------------------------------------------------------------
+	public boolean visit(MethodDeclaration node) {
+		StringBuffer sb = new StringBuffer();
+
+		//Modifiers publicなど
+		sb.append(StringUtils.join(node.modifiers(), " "));
+		sb.append(" ");
+
+		// Return Type
+		if( !node.isConstructor() ){
+			sb.append(node.getReturnType2().toString() );
+			sb.append(" ");
+		}
+
+		// Parameters
+		sb.append(node.getName().toString());
+		sb.append("(");
+		sb.append(StringUtils.join(node.parameters(), ", "));
+		sb.append(")");
+
+		System.out.println(sb);
+		return super.visit(node);
+	}
+	//-------------------------------------------------------------------------*/
+
+		// 呼び出したところのソースコード
+		//sb.append("ルート " + node.getRoot().toString() );
+		//sb.append(" ");
+
+		// 引数の型m
+		//List list =  node.typeArguments();
+		//sb.append("引数の型\t\t");
+		//for (Object s : list) {
+		//	sb.append(s + ", ");
+		//}
+
+		// 式の長さ
+		//sb.append("長さ\t\t\t" + node.getLength() + " \n");
+
+		// startposition
+		//sb.append("スタートポジション\t" + node.getStartPosition() + "\n");
+
+		// 文字列
+		//sb.append("String\t\t\t" + node.toString() + "\n");
+
+		// プロパティ
+		//sb.append("properties\t\t" + node.properties() + "\n");
+
+		//mapに関数名とその呼び出し全体を入れる
+		//map.put(node.toString(), node.getName().toString());
+		//for (String key : map.keySet()) {
+	    //    System.out.println("met : " + map.get(key) + "\t\tall : " + key);
+	    //}
+
+	    	//フィールドアクセス------------------------------------------------------------
+	public boolean visit(FieldAccess node) {
+		StringBuffer sb = new StringBuffer();
+		System.out.println("aaa");
+		//
+		sb.append("フィールドアクセス\t" + node.getName() + " \n----------------------------------------------\n");
+
+		System.out.println(sb);
+		return super.visit(node);
+	}
+	//-------------------------------------------------------------------------
+	    		/*
+	//SimpleName------------------------------------------------------------
+				public boolean visit(SimpleName node) {
+					StringBuffer sb = new StringBuffer();
+					//
+					sb.append("SimpleName\t" + node.toString() + " \n----------------------------------------------\n");
+
+					System.out.println(sb);
+					return super.visit(node);
+				}
+	//-------------------------------------------------------------------------*/
+

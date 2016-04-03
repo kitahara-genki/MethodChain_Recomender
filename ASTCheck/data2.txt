@@ -1,0 +1,699 @@
+@description=java source codes
+@title=javamore60
+i1
+#title=Attribute.java1
+1 s~Integer~[･]~~[･]~~Integer~[String･null･]~valueOf
+1 ~StringBuilder~[･]~~[･]~~StringBuilder~[char･null･]~append
+1 ~StringBuilder~[･]~~[･]~~int~[null･]~length
+1 ~Attribute~[･]~~[･]~~int~[null･]~getNameHash
+1 ~Iterator~[･]~~[･]~~Object~[null･]~next
+1 s~System~[･]~PrintStream~[･]~out~void~[String･null･]~println
+2 ~Object~[･]~~[･]~~boolean~[Object･null･]~equals
+1 ~Attribute~[･]~~[･]~~int~[null･]~getElementType
+1 ~Iterator~[･]~~[･]~~boolean~[null･]~hasNext
+1 ~String~[･]~~[･]~~int~[null･]~hashCode
+2 ~Attribute~[･]~~[･]~~String~[null･]~getStringValue
+1 n~GrappaBox~[･]~String~[null･]~trim~int~[null･]~length
+2 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+1 ~StringBuilder~[･]~~[･]~~StringBuilder~[String･null･]~append
+1 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+2 ~Attribute~[･]~~[･]~~String~[null･]~getName
+1 s~Double~[･]~~[･]~~Double~[String･null･]~valueOf
+1 ~Attribute~[･]~~[･]~~Object~[null･]~getValue
+!
+i2
+#title=ColorManager.java2
+1 ~Map~[･]~~[･]~~Object~[Object･Object･null･]~put
+1 ~Map~[･]~~[･]~~Collection~[null･]~values
+1 ~Map~[･]~~[･]~~Object~[Object･null･]~get
+1 ~Iterator~[･]~~[･]~~boolean~[null･]~hasNext
+!
+i3
+#title=Edge.java3
+8 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+3 ~Iterator~[･]~~[･]~~Edge~[null･]~next
+1 s~System~[･]~~[･]~~long~[null･]~currentTimeMillis
+1 s~Edge~[･]~~[･]~~Iterator~[Node･Node･null･]~findEdgesByEnds
+2 ~Edge~[･]~~[･]~~Node~[null･]~getHead
+4 ~Iterator~[･]~~[･]~~boolean~[null･]~hasNext
+2 ~Edge~[･]~~[･]~~Node~[null･]~getTail
+1 ~String~[･]~~[･]~~int~[null･]~hashCode
+!
+i4
+#title=Element.java4
+2 ~Double~[･]~~[･]~~double~[null･]~getWidth
+1 s~Grappa~[･]~~[･]~NODE~int~[null･]~getType
+1 ~Set~[･]~~[･]~~boolean~[Object･null･]~contains
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isLowerCase
+1 ~String~[･]~~[･]~~boolean~[String･null･]~endsWith
+1 ~StringBuilder~[･]~~[･]~~StringBuilder~[int･char･null･]~insert
+1 ~PrintWriter~[･]~~[･]~~void~[char[]･null･]~print
+1 ~ArrayList~[･]~~[･]~~boolean~[List･null･]~add
+1 ~Set~[･]~~[･]~~Iterator~[null･]~iterator
+2 ~HashMap~[･]~~[･]~~Set~[Integer･Set･null･]~put
+1 ~HashMap~[･]~~[･]~~void~[null･]~clear
+2 ~Double~[･]~~[･]~~double~[null･]~getHeight
+8 ~HashMap~[･]~~[･]~~int~[null･]~size
+2 ~Double~[･]~~[･]~~void~[double･double･double･double･null･]~setRect
+1 ~String~[･]~~[･]~~String~[null･]~toLowerCase
+3 ~PrintWriter~[･]~~[･]~~void~[String･null･]~print
+1 ~HashMap~[･]~~[･]~~Object~[Object･Object･null･]~put
+3 ~HashMap~[･]~~[･]~~boolean~[Object･null･]~containsKey
+2 ~HashMap~[･]~~[･]~~Integer~[Object･null･]~get
+1 ~ArrayList~[･]~~[･]~~Element~[int･null･]~get
+1 ~HashMap~[･]~~[･]~~String[]~[Object･null･]~get
+1 s~Grappa~[･]~~[･]~TYPES_SHIFT~long~[null･]~longValue
+2 ~HashMap~[･]~~[･]~~String[]~[Set･String[]･null･]~put
+4 ~PrintWriter~[･]~~[･]~~void~[String･null･]~println
+2 s~Arrays~[･]~~[･]~~void~[Object[]･null･]~sort
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isDigit
+1 ~HashMap~[･]~~[･]~~Integer~[String･Integer･null･]~put
+1 ~String~[･]~~[･]~~int~[null･]~length
+1 ~HashMap~[･]~~[･]~~Object~[Object･null･]~remove
+1 s~Character~[･]~~[･]~~char~[char･null･]~toLowerCase
+2 s~System~[･]~~[･]~~void~[Object･int･Object･int･int･null･]~arraycopy
+1 ~HashMap~[･]~~[･]~~Object~[Object･null･]~get
+2 ~Set~[･]~~[･]~~boolean~[String･null･]~add
+2 ~Double~[･]~~[･]~~double~[null･]~getY
+2 ~Double~[･]~~[･]~~double~[null･]~getX
+1 ~PrintWriter~[･]~~[･]~~void~[null･]~println
+3 ~StringBuilder~[･]~~[･]~~StringBuilder~[char･null･]~append
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isUpperCase
+2 ~String~[･]~~[･]~~int~[int･null･]~indexOf
+2 ~ArrayList~[･]~~[･]~~int~[null･]~size
+1 n~IllegalArgumentException~[String･null･]~String~[null･]~trim~int~[null･]~length
+2 ~Integer~[･]~~[･]~~int~[null･]~intValue
+2 ~String~[･]~~[･]~~char[]~[null･]~toCharArray
+2 s~Arrays~[･]~~[･]~~int~[Object[]･null･]~deepHashCode
+1 ~String~[･]~~[･]~~int~[null･]~hashCode
+22 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+2 ~HashMap~[･]~~[･]~~Set~[Object･null･]~get
+2 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+8 ~ArrayList~[･]~~[･]~~boolean~[Element･null･]~add
+!
+i5
+#title=ExceptionDisplay.java5
+2 ~Panel~[･]~~[･]~~Component~[String･Component･null･]~add
+3 ~Display~[･]~~[･]~~void~[String･null･]~setText
+1 ~PrintWriter~[･]~~[･]~~void~[null･]~close
+1 ~ActionEvent~[･]~~[･]~~Object~[null･]~getSource
+1 ~TextArea~[･]~~[･]~~void~[String･null･]~setText
+1 ~Panel~[･]~~[･]~~void~[LayoutManager･null･]~setLayout
+2 ~Exception~[･]~~[･]~~String~[null･]~getMessage
+2 ~GridBagLayout~[･]~~[･]~~void~[Component･GridBagConstraints･null･]~setConstraints
+1 ~StringWriter~[･]~~[･]~~String~[null･]~toString
+1 ~TextArea~[･]~~[･]~~void~[boolean･null･]~setEditable
+2 ~Button~[･]~~[･]~~void~[ActionListener･null･]~addActionListener
+1 ~Display~[･]~~[･]~~void~[boolean･null･]~setVisible
+1 ~PrintWriter~[･]~~[･]~~void~[null･]~flush
+2 ~Button~[･]~~[･]~~String~[null･]~getLabel
+!
+i6
+#title=Graph.java6
+1 s~elem~[･]~~[･]~grappaNexus~void~[null･]~flush
+1 ~StringBuilder~[･]~~[･]~~int~[null･]~length
+1 ~Exception~[･]~~[･]~~void~[PrintWriter･null･]~printStackTrace
+1 ~String~[･]~~[･]~~boolean~[String･null･]~startsWith
+1 ~String~[･]~~[･]~~int~[null･]~hashCode
+2 ~StringBuilder~[･]~~[･]~~void~[int･null･]~setLength
+4 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+5 ~String~[･]~~[･]~~int~[null･]~length
+1 s~Collections~[･]~~[･]~~List~[List･null･]~synchronizedList
+1 ~StringBuilder~[･]~~[･]~~StringBuilder~[String･null･]~append
+1 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+2 ~Long~[･]~~[･]~~long~[null･]~longValue
+1 ~PrintWriter~[･]~~[･]~~void~[null･]~flush
+!
+i7
+#title=Grappa.java7
+30 ~HashMap~[･]~~[･]~~Integer~[String･Integer･null･]~put
+1 ~HashMap~[･]~~[･]~~Integer~[Object･null･]~get
+1 ~HashMap~[･]~~[･]~~Set~[null･]~keySet
+1 ~Iterator~[･]~~[･]~~Object~[null･]~next
+1 ~HashMap~[･]~~[･]~~String~[Integer･String･null･]~put
+1 ~Iterator~[･]~~[･]~~boolean~[null･]~hasNext
+!
+i8
+#title=GrappaAdapter.java8
+2 ~Vector~[･]~~[･]~~boolean~[Object･null･]~add
+4 ~Graphics2D~[･]~~[･]~~void~[Shape･null･]~draw
+1 s~javax.swing~[･]~~[･]~JMenuItem~String~[null･]~getText
+1 s~javax.swing~[･]~~[･]~JPopupMenu~Component~[null･]~getInvoker
+1 ~ActionEvent~[･]~~[･]~~Object~[null･]~getSource
+2 ~Iterator~[･]~~[･]~~boolean~[null･]~hasNext
+1 ~PrinterJob~[･]~~[･]~~void~[Printable･PageFormat･null･]~setPrintable
+1 s~PrinterJob~[･]~~[･]~~PrinterJob~[null･]~getPrinterJob
+15 ~JPopupMenu~[･]~~[･]~~JMenuItem~[JMenuItem･null･]~add
+1 ~JPopupMenu~[･]~~[･]~~void~[Component･int･int･null･]~show
+3 ~Graphics2D~[･]~~[･]~~void~[null･]~setPaintMode
+6 ~Graphics2D~[･]~~[･]~~void~[AffineTransform･null･]~setTransform
+2 s~subg~[･]~~[･]~currentSelection~boolean~[Object･null･]~remove
+1 ~Point2D~[･]~~[･]~~double~[null･]~getX
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getWidth
+1 ~Point2D~[･]~~[･]~~double~[null･]~getY
+10 ~Vector~[･]~~[･]~~int~[null･]~size
+1 ~List~[･]~~[･]~~Object~[int･null･]~get
+3 ~Graphics2D~[･]~~[･]~~AffineTransform~[null･]~getTransform
+7 ~JPopupMenu~[･]~~[･]~~void~[null･]~addSeparator
+1 ~Vector~[･]~~[･]~~void~[int･null･]~removeElementAt
+1 ~List~[･]~~[･]~~int~[null･]~size
+14 ~JMenuItem~[･]~~[･]~~void~[ActionListener･null･]~addActionListener
+1 ~PrinterJob~[･]~~[･]~~void~[null･]~print
+3 ~Graphics2D~[･]~~[･]~~void~[Color･null･]~setXORMode
+2 s~javax.swing~[･]~~[･]~JMenuItem~Container~[null･]~getParent
+14 ~String~[･]~~[･]~~boolean~[String･null･]~startsWith
+2 ~Iterator~[･]~~[･]~~Object~[null･]~next
+1 ~String~[･]~~[･]~~int~[String･null･]~indexOf
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getHeight
+1 ~PrinterJob~[･]~~[･]~~boolean~[null･]~printDialog
+5 ~Vector~[･]~~[･]~~Object~[int･null･]~elementAt
+1 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+1 ~PageFormat~[･]~~[･]~~void~[int･null･]~setOrientation
+9 s~subg~[･]~~[･]~currentSelection~boolean~[Object･null･]~add
+!
+i9
+#title=GrappaBox.java9
+1 ~NumberFormatException~[･]~~[･]~~String~[null･]~getMessage
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getWidth
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getX
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getY
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getHeight
+!
+i10
+#title=GrappaColor.java10
+1 s~Color~[･]~~[･]~~float[]~[int･int･int･float[]･null･]~RGBtoHSB
+1 ~HashMap~[･]~~[･]~~Color~[String･Color･null･]~put
+2 ~HashMap~[･]~~[･]~~String~[Object･null･]~get
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isUpperCase
+1 ~Color~[･]~~[･]~~int~[null･]~getGreen
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isLowerCase
+1 ~String~[･]~~[･]~~char[]~[null･]~toCharArray
+1 ~Color~[･]~~[･]~~int~[null･]~getRed
+1 ~Color~[･]~~[･]~~int~[null･]~getBlue
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isDigit
+1 ~HashMap~[･]~~[･]~~String~[Color･String･null･]~put
+1 ~String~[･]~~[･]~~String~[int･int･null･]~substring
+1 s~Float~[･]~Float~[String･null･]~valueOf~float~[null･]~floatValue
+1 s~Color~[･]~~[･]~~Color~[float･float･float･null･]~getHSBColor
+1 s~Character~[･]~~[･]~~char~[char･null･]~toLowerCase
+1 ~HashMap~[･]~~[･]~~Color~[Object･null･]~get
+!
+i11
+#title=GrappaConstants.java11
+1 s~Math~[･]~~[･]~~double~[double･null･]~log
+1 s~System~[･]~~[･]~~String~[String･null･]~getProperty
+49 ~String~[･]~~[･]~~int~[null･]~hashCode
+!
+i12
+#title=GrappaLine.java12
+9 ~StringBuilder~[･]~~[･]~~StringBuilder~[Object･null･]~append
+1 ~GeneralPath~[･]~~[･]~~boolean~[Rectangle2D･null･]~intersects
+1 ~GeneralPath~[･]~~[･]~~boolean~[double･double･double･double･null･]~contains
+4 ~StringBuilder~[･]~~[･]~~StringBuilder~[char･null･]~append
+1 s~Math~[･]~~[･]~~double~[double･null･]~sin
+3 ~GeneralPath~[･]~~[･]~~void~[float･float･null･]~moveTo
+1 ~GeneralPath~[･]~~[･]~~boolean~[Rectangle2D･null･]~contains
+1 s~Math~[･]~~[･]~~double~[double･null･]~cos
+13 ~String~[･]~~[･]~~char~[int･null･]~charAt
+3 ~GeneralPath~[･]~~[･]~~PathIterator~[AffineTransform･null･]~getPathIterator
+1 ~GrappaLine~[･]~~[･]~~int~[null･]~getArrowType
+1 s~Math~[･]~~[･]~~double~[double･double･null･]~atan2
+4 ~String~[･]~~[･]~~String~[int･int･null･]~substring
+4 ~GeneralPath~[･]~~[･]~~void~[float･float･float･float･float･float･null･]~curveTo
+1 ~String~[･]~~[･]~~int~[null･]~length
+1 ~GeneralPath~[･]~~[･]~~boolean~[double･double･double･double･null･]~intersects
+1 ~GeneralPath~[･]~~[･]~~Object~[null･]~clone
+13 ~GeneralPath~[･]~~[･]~~void~[float･float･null･]~lineTo
+7 ~StringBuilder~[･]~~[･]~~StringBuilder~[String･null･]~append
+1 ~GeneralPath~[･]~~[･]~~boolean~[Point2D･null･]~contains
+2 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+2 ~GeneralPath~[･]~~[･]~~Rectangle2D~[null･]~getBounds2D
+1 ~GeneralPath~[･]~~[･]~~boolean~[double･double･null･]~contains
+!
+i13
+#title=GrappaNexus.java13
+4 ~Rectangle2D~[･]~~[･]~~void~[Rectangle2D･null･]~add
+1 ~Graphics2D~[･]~~[･]~~void~[Shape･null･]~fill
+1 s~array~[･]~~[･]~length~char[]~[null･]~toCharArray
+1 ~Area~[･]~~[･]~~void~[Area･null･]~add
+1 ~Area~[･]~~[･]~~boolean~[double･double･double･double･null･]~contains
+3 ~Number~[･]~~[･]~~float~[null･]~floatValue
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getCenterY
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getCenterX
+7 ~Rectangle2D~[･]~~[･]~~double~[null･]~getWidth
+1 ~Area~[･]~~[･]~~boolean~[double･double･null･]~contains
+1 ~Point2D~[･]~~[･]~~double~[null･]~getX
+1 ~Point2D~[･]~~[･]~~double~[null･]~getY
+1 s~Class~[･]~~[･]~~Class~[String･null･]~forName
+1 ~Graphics2D~[･]~~[･]~~boolean~[Image･int･int･int･int･ImageObserver･null･]~drawImage
+7 ~Rectangle2D~[･]~~[･]~~double~[null･]~getX
+1 ~Map~[･]~~[･]~~Font~[String･Font･null･]~put
+6 ~Rectangle2D~[･]~~[･]~~double~[null･]~getY
+2 ~Number~[･]~~[･]~~int~[null･]~intValue
+6 ~GeneralPath~[･]~~[･]~~void~[Shape･boolean･null･]~append
+6 ~Rectangle2D~[･]~~[･]~~double~[null･]~getHeight
+4 ~Rectangle2D~[･]~~[･]~~void~[double･double･double･double･null･]~setRect
+1 ~Area~[･]~~[･]~~Object~[null･]~clone
+2 ~Shape~[･]~~[･]~~Rectangle2D~[null･]~getBounds2D
+2 ~Constructor~[･]~~[･]~~Object~[Object[]･null･]~newInstance
+2 ~Font~[･]~~[･]~~LineMetrics~[String･FontRenderContext･null･]~getLineMetrics
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getMinY
+1 ~Rectangle2D~[･]~~[･]~~Object~[null･]~clone
+1 ~Shape~[･]~~[･]~~boolean~[double･double･double･double･null･]~contains
+1 ~Graphics2D~[･]~~[･]~~void~[Shape･null･]~draw
+1 ~String~[･]~~[･]~~int~[int･null･]~lastIndexOf
+1 s~java.awt~[･]~Toolkit~[･]~Toolkit~Toolkit~[null･]~getDefaultToolkit
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getMaxY
+1 ~Class~[･]~~[･]~~Constructor~[Class[]･null･]~getConstructor
+1 ~Rectangle2D~[･]~~[･]~~boolean~[Object･null･]~equals
+2 ~Font~[･]~~[･]~~Rectangle2D~[String･FontRenderContext･null･]~getStringBounds
+4 ~String~[･]~~[･]~~int~[null･]~length
+5 s~copy~[･]~~[･]~shape~Object~[null･]~clone
+4 ~Area~[･]~~[･]~~Rectangle~[null･]~getBounds
+2 s~System~[･]~~[･]~~void~[Object･int･Object･int･int･null･]~arraycopy
+1 ~Shape~[･]~~[･]~~Rectangle~[null･]~getBounds
+2 ~Rectangle2D~[･]~~[･]~~void~[Point2D･null･]~add
+1 ~Exception~[･]~~[･]~~Throwable~[null･]~fillInStackTrace
+1 ~Shape~[･]~~[･]~~boolean~[double･double･null･]~contains
+1 ~Graphics2D~[･]~~[･]~~Shape~[null･]~getClip
+1 ~Graphics2D~[･]~~[･]~~void~[Shape･null･]~clip
+1 ~Area~[･]~~[･]~~boolean~[double･double･double･double･null･]~intersects
+1 ~Graphics2D~[･]~~[･]~~void~[Shape･null･]~setClip
+6 s~System~[･]~~[･]~~long~[null･]~currentTimeMillis
+3 ~String~[･]~~[･]~~int~[int･null･]~indexOf
+1 s~copy~[･]~~[･]~textArea~Object~[null･]~clone
+6 ~Double~[･]~~[･]~~double~[null･]~doubleValue
+4 ~Font~[･]~~[･]~~int~[null･]~getSize
+7 ~Integer~[･]~~[･]~~int~[null･]~intValue
+1 s~Grappa~[･]~~[･]~autoPositionNodeLabel~long~[null･]~longValue
+1 ~Shape~[･]~~[･]~~boolean~[double･double･double･double･null･]~intersects
+1 ~Exception~[･]~~[･]~~String~[null･]~getMessage
+1 ~Map~[･]~~[･]~~Font~[Object･null･]~get
+1 n~Font~[String･int･int･null･]~~[･]~~Font~[float･null･]~deriveFont
+!
+i14
+#title=GrappaPanel.java14
+1 ~JViewport~[･]~~[･]~~void~[Point･null･]~setViewPosition
+1 ~Graphics2D~[･]~~[･]~~void~[Shape･null･]~fill
+1 ~Rectangle2D~[･]~~[･]~~boolean~[Point2D･null･]~contains
+1 s~Integer~[･]~~[･]~~Integer~[String･null･]~valueOf
+8 s~Math~[･]~~[･]~~double~[double･null･]~ceil
+1 ~Dimension2D~[･]~~[･]~~double~[null･]~getHeight
+3 ~Graphics2D~[･]~~[･]~~void~[Font･null･]~setFont
+1 ~Rectangle~[･]~~[･]~~void~[int･int･null･]~translate
+1 ~Graphics2D~[･]~~[･]~~Color~[null･]~getColor
+1 ~StringBuilder~[･]~~[･]~~String~[int･int･null･]~substring
+2 s~javax.swing~[･]~~[･]~JViewport~Dimension~[null･]~getSize
+1 ~PageFormat~[･]~~[･]~~double~[null･]~getImageableX
+1 ~PageFormat~[･]~~[･]~~double~[null･]~getImageableY
+1 ~PageFormat~[･]~~[･]~~double~[null･]~getImageableHeight
+4 ~Graphics2D~[･]~~[･]~~void~[Color･null･]~setColor
+1 ~PageFormat~[･]~~[･]~~double~[null･]~getImageableWidth
+2 ~String~[･]~~[･]~~String~[int･int･null･]~substring
+1 ~JViewport~[･]~~[･]~~Rectangle~[null･]~getViewRect
+8 s~Math~[･]~~[･]~~int~[float･null･]~round
+1 s~Printable~[･]~~[･]~NO_SUCH_PAGE~void~[boolean･null･]~setDoubleBuffered
+9 ~Point2D~[･]~~[･]~~double~[null･]~getX
+9 ~Point2D~[･]~~[･]~~double~[null･]~getY
+2 ~MouseEvent~[･]~~[･]~~int~[null･]~getModifiers
+8 ~Dimension~[･]~~[･]~~double~[null･]~getHeight
+5 ~AffineTransform~[･]~~[･]~~void~[double･double･null･]~translate
+9 ~MouseEvent~[･]~~[･]~~Point~[null･]~getPoint
+1 ~Graphics2D~[･]~~[･]~~Composite~[null･]~getComposite
+1 ~Exception~[･]~~[･]~~void~[null･]~printStackTrace
+2 ~Graphics2D~[･]~~[･]~~void~[int･int･int･int･null･]~drawOval
+3 ~JLabel~[･]~~[･]~~void~[Dimension･null･]~setSize
+10 ~StringTokenizer~[･]~~[･]~~String~[null･]~nextToken
+3 ~JLabel~[･]~~[･]~~void~[String･null･]~setText
+1 s~SwingUtilities~[･]~~[･]~~Rectangle~[Component･Rectangle･Component･null･]~convertRectangle
+3 ~Shape~[･]~~[･]~~boolean~[Rectangle2D･null･]~intersects
+1 s~Cursor~[･]~~[･]~~Cursor~[null･]~getDefaultCursor
+2 ~String~[･]~~[･]~~char~[int･null･]~charAt
+4 ~AffineTransform~[･]~~[･]~~void~[double･double･null･]~scale
+27 ~Graphics2D~[･]~~[･]~~void~[Paint･null･]~setPaint
+4 ~Graphics2D~[･]~~[･]~~void~[int･int･int･int･null･]~fillOval
+1 ~StringTokenizer~[･]~~[･]~~boolean~[null･]~hasMoreTokens
+4 s~SwingUtilities~[･]~~[･]~~Point~[Component･Point･Component･null･]~convertPoint
+5 ~Graphics2D~[･]~~[･]~~void~[Key･Object･null･]~setRenderingHint
+1 ~URL~[･]~~[･]~~String~[null･]~toString
+1 ~Graphics2D~[･]~~[･]~~Rectangle~[null･]~getClipBounds
+1 ~JViewport~[･]~~[･]~~Dimension~[null･]~getExtentSize
+2 s~Color~[･]~~[･]~~Color~[String･null･]~getColor
+3 ~JLabel~[･]~~[･]~~void~[Graphics･null･]~paint
+1 ~Dimension2D~[･]~~[･]~~double~[null･]~getWidth
+1 ~Graphics2D~[･]~~[･]~~void~[Shape･null･]~draw
+2 ~Graphics2D~[･]~~[･]~~void~[int･int･int･int･null･]~drawLine
+6 ~Container~[･]~~[･]~~Container~[null･]~getParent
+10 ~AffineTransform~[･]~~[･]~~Point2D~[Point2D･Point2D･null･]~transform
+2 s~Color~[･]~~[･]~~Color~[String･null･]~decode
+1 ~JViewport~[･]~~[･]~~void~[Rectangle･null･]~scrollRectToVisible
+1 s~Cursor~[･]~~[･]~~Cursor~[int･null･]~getPredefinedCursor
+3 ~Graphics2D~[･]~~[･]~~void~[String･int･int･null･]~drawString
+1 ~StringBuilder~[･]~~[･]~~StringBuilder~[int･int･String･null･]~replace
+1 ~Color~[･]~~[･]~~boolean~[Object･null･]~equals
+6 ~Graphics2D~[･]~~[･]~~void~[int･int･null･]~translate
+1 s~AlphaComposite~[･]~~[･]~~AlphaComposite~[int･float･null･]~getInstance
+23 ~Graphics2D~[･]~~[･]~~void~[Stroke･null･]~setStroke
+1 ~AffineTransform~[･]~~[･]~~Object~[null･]~clone
+3 ~JLabel~[･]~~[･]~~Dimension~[null･]~getPreferredSize
+4 s~Double~[･]~~[･]~~Double~[String･null･]~valueOf
+1 ~Graphics2D~[･]~~[･]~~void~[Shape･null･]~setClip
+1 ~Graphics2D~[･]~~[･]~~void~[AffineTransform･null･]~transform
+1 ~JViewport~[･]~~[･]~~Component~[null･]~getView
+1 ~Graphics2D~[･]~~[･]~~Stroke~[null･]~getStroke
+1 ~Graphics~[･]~~[･]~~Shape~[null･]~getClip
+1 ~String~[･]~~[･]~~String~[int･null･]~substring
+2 ~String~[･]~~[･]~~boolean~[String･null･]~startsWith
+1 ~NoninvertibleTransformException~[･]~~[･]~~void~[null･]~printStackTrace
+2 ~String~[･]~~[･]~~int~[String･null･]~indexOf
+2 ~Point2D~[･]~~[･]~~void~[double･double･null･]~setLocation
+4 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+2 ~MouseWheelEvent~[･]~~[･]~~int~[null･]~getWheelRotation
+3 ~StringBuilder~[･]~~[･]~~int~[String･int･null･]~indexOf
+2 ~Graphics2D~[･]~~[･]~~void~[Composite･null･]~setComposite
+8 ~Dimension~[･]~~[･]~~double~[null･]~getWidth
+1 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+1 s~Math~[･]~~[･]~~double~[double･null･]~abs
+1 ~AffineTransform~[･]~~[･]~~AffineTransform~[null･]~createInverse
+!
+i15
+#title=GrappaPathIterator.java15
+2 ~PathIterator~[･]~~[･]~~void~[null･]~next
+4 ~PathIterator~[･]~~[･]~~int~[double[]･null･]~currentSegment
+1 s~System~[･]~~[･]~~void~[Object･int･Object･int･int･null･]~arraycopy
+8 ~PathIterator~[･]~~[･]~~boolean~[null･]~isDone
+!
+i16
+#title=GrappaPoint.java16
+1 ~String~[･]~~[･]~~String~[int･int･null･]~substring
+1 ~NumberFormatException~[･]~~[･]~~String~[null･]~getMessage
+3 ~String~[･]~~[･]~~int~[int･null･]~indexOf
+1 ~String~[･]~~[･]~~String~[int･null･]~substring
+2 s~java.lang~[･]~Double~[･]~Double~Double~[String･null･]~valueOf
+!
+i17
+#title=GrappaShape.java17
+1 ~GeneralPath~[･]~~[･]~~boolean~[Rectangle2D･null･]~intersects
+4 s~Math~[･]~~[･]~~int~[int･null･]~abs
+1 ~GeneralPath~[･]~~[･]~~boolean~[double･double･double･double･null･]~contains
+1 ~GeneralPath~[･]~~[･]~~void~[double･double･null･]~moveTo
+6 s~Math~[･]~~[･]~~double~[double･null･]~sin
+13 ~GeneralPath~[･]~~[･]~~void~[float･float･null･]~moveTo
+10 ~GeneralPath~[･]~~[･]~~void~[double･double･null･]~lineTo
+1 ~GeneralPath~[･]~~[･]~~boolean~[Rectangle2D･null･]~contains
+1 ~GeneralPath~[･]~~[･]~~void~[null･]~closePath
+3 s~Math~[･]~~[･]~~double~[double･null･]~sqrt
+5 s~Math~[･]~~[･]~~double~[double･null･]~cos
+3 ~GeneralPath~[･]~~[･]~~PathIterator~[AffineTransform･null･]~getPathIterator
+3 s~Math~[･]~~[･]~~double~[double･double･null･]~atan2
+2 ~GeneralPath~[･]~~[･]~~void~[float･float･float･float･float･float･null･]~curveTo
+1 ~GeneralPath~[･]~~[･]~~boolean~[double･double･double･double･null･]~intersects
+1 ~GeneralPath~[･]~~[･]~~Object~[null･]~clone
+11 ~GeneralPath~[･]~~[･]~~void~[float･float･null･]~lineTo
+1 ~GeneralPath~[･]~~[･]~~boolean~[Point2D･null･]~contains
+2 s~Math~[･]~~[･]~~double~[double･null･]~abs
+2 ~GeneralPath~[･]~~[･]~~Rectangle2D~[null･]~getBounds2D
+1 ~GeneralPath~[･]~~[･]~~boolean~[double･double･null･]~contains
+!
+i18
+#title=GrappaSize.java18
+1 ~Dimension2D~[･]~~[･]~~double~[null･]~getWidth
+1 ~NumberFormatException~[･]~~[･]~~String~[null･]~getMessage
+1 ~Dimension2D~[･]~~[･]~~double~[null･]~getHeight
+!
+i19
+#title=GrappaStyle.java19
+1 s~Color~[･]~~[･]~~float[]~[int･int･int･float[]･null･]~RGBtoHSB
+3 n~RuntimeException~[String･null･]~Float~[String･null･]~valueOf~float~[null･]~floatValue
+1 ~HashMap~[･]~~[･]~~Integer~[Object･null･]~get
+1 ~HashMap~[･]~~[･]~~Stroke~[Object･null･]~get
+1 s~BasicStroke~[･]~~[･]~CAP_BUTT~int~[null･]~intValue
+1 ~Color~[･]~~[･]~~int~[null･]~getRed
+1 ~Color~[･]~~[･]~~int~[null･]~getBlue
+1 ~Color~[･]~~[･]~~boolean~[Object･null･]~equals
+41 ~HashMap~[･]~~[･]~~Integer~[String･Integer･null･]~put
+1 ~String~[･]~~[･]~~String~[int･int･null･]~substring
+1 ~String~[･]~~[･]~~int~[null･]~length
+3 s~Float~[･]~Float~[String･null･]~valueOf~float~[null･]~floatValue
+2 ~HashMap~[･]~~[･]~~Stroke~[String･Stroke･null･]~put
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isWhitespace
+30 ~StringBuilder~[･]~~[･]~~StringBuilder~[String･null･]~append
+1 n~RuntimeException~[String･null･]~Boolean~[String･null･]~valueOf~boolean~[null･]~booleanValue
+6 ~StringBuilder~[･]~~[･]~~StringBuilder~[Object･null･]~append
+5 ~StringBuilder~[･]~~[･]~~StringBuilder~[float･null･]~append
+27 ~StringBuilder~[･]~~[･]~~StringBuilder~[char･null･]~append
+1 ~Color~[･]~~[･]~~int~[null･]~getGreen
+2 ~StringBuilder~[･]~~[･]~~StringBuilder~[int･null･]~append
+3 ~Integer~[･]~~[･]~~int~[null･]~intValue
+1 ~String~[･]~~[･]~~String~[null･]~toLowerCase
+3 ~String~[･]~~[･]~~char~[int･null･]~charAt
+2 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+5 s~Boolean~[･]~Boolean~[String･null･]~valueOf~boolean~[null･]~booleanValue
+2 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+1 ~float[]~[･]~~[･]~~Object~[null･]~clone
+!
+i20
+#title=GrappaSupport.java20
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isLetterOrDigit
+1 s~java.lang~[･]~~[･]~Process~InputStream~[null･]~getInputStream
+1 ~Rectangle2D~[･]~~[･]~~boolean~[Point2D･null･]~contains
+1 ~AffineTransform~[･]~~[･]~~Point2D~[Point2D･Point2D･null･]~transform
+1 ~JViewport~[･]~~[･]~~void~[Rectangle･null･]~scrollRectToVisible
+1 ~BufferedReader~[･]~~[･]~~String~[null･]~readLine
+1 s~java.net~[･]~~[･]~URLConnection~OutputStream~[null･]~getOutputStream
+1 ~StringWriter~[･]~~[･]~~void~[null･]~close
+9 ~Iterator~[･]~~[･]~~boolean~[null･]~hasNext
+1 s~java.net~[･]~~[･]~URLConnection~InputStream~[null･]~getInputStream
+1 ~Rectangle2D~[･]~~[･]~~Rectangle2D~[Rectangle2D･null･]~createIntersection
+2 ~BufferedWriter~[･]~~[･]~~void~[String･int･int･null･]~write
+1 ~Rectangle2D~[･]~~[･]~~Rectangle~[null･]~getBounds
+1 ~BufferedWriter~[･]~~[･]~~void~[null･]~close
+3 ~String~[･]~~[･]~~int~[null･]~length
+1 s~Float~[･]~Float~[String･null･]~valueOf~float~[null･]~floatValue
+1 s~Character~[･]~~[･]~~char~[char･null･]~toLowerCase
+3 ~ArrayList~[･]~~[･]~~boolean~[Object･null･]~add
+1 ~Point2D~[･]~~[･]~~double~[null･]~getX
+1 ~Point2D~[･]~~[･]~~double~[null･]~getY
+2 ~StringBuilder~[･]~~[･]~~StringBuilder~[String･null･]~append
+2 ~BufferedWriter~[･]~~[･]~~void~[null･]~flush
+1 ~StringBuilder~[･]~~[･]~~StringBuilder~[Object･null･]~append
+3 ~StringTokenizer~[･]~~[･]~~int~[null･]~countTokens
+3 ~StringTokenizer~[･]~~[･]~~String~[null･]~nextToken
+1 ~Reader~[･]~~[･]~~void~[null･]~close
+1 ~StringBuilder~[･]~~[･]~~int~[null･]~length
+1 ~StringWriter~[･]~~[･]~~void~[null･]~flush
+1 ~String~[･]~~[･]~~char[]~[null･]~toCharArray
+9 ~Iterator~[･]~~[･]~~Object~[null･]~next
+8 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+3 ~StringTokenizer~[･]~~[･]~~boolean~[null･]~hasMoreTokens
+1 s~Double~[･]~Double~[String･null･]~valueOf~double~[null･]~doubleValue
+1 s~java.lang~[･]~~[･]~Process~OutputStream~[null･]~getOutputStream
+1 ~StringWriter~[･]~~[･]~~String~[null･]~toString
+1 ~BufferedReader~[･]~~[･]~~void~[null･]~close
+1 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+1 ~JViewport~[･]~~[･]~~Dimension~[null･]~getExtentSize
+!
+i21
+#title=GrappaSupportPrintf.java21
+4 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･double･boolean･null･]~buildFlex
+1 ~Dimension2D~[･]~~[･]~~double~[null･]~getWidth
+4 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･double･boolean･null･]~buildExp
+2 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･Dimension2D･boolean･null･]~buildSize
+1 ~Dimension2D~[･]~~[･]~~double~[null･]~getHeight
+1 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･int･null･]~buildChar
+1 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･String･null･]~buildString
+2 s~Integer~[･]~~[･]~~String~[int･null･]~toHexString
+1 s~Math~[･]~~[･]~~double~[double･null･]~floor
+2 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･int･null･]~buildOctal
+8 ~StringBuilder~[･]~~[･]~~void~[int･null･]~setLength
+10 s~Math~[･]~~[･]~~double~[double･null･]~log
+2 ~String~[･]~~[･]~~String~[int･int･null･]~substring
+8 ~String~[･]~~[･]~~int~[null･]~length
+3 s~Math~[･]~~[･]~~double~[double･double･null･]~pow
+1 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･long･null･]~buildInteger
+1 ~Point2D~[･]~~[･]~~double~[null･]~getX
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getWidth
+2 ~StringBuilder~[･]~~[･]~~StringBuilder~[int･String･null･]~insert
+2 ~Point2D~[･]~~[･]~~double~[null･]~getY
+18 ~StringBuilder~[･]~~[･]~~StringBuilder~[String･null･]~append
+2 ~Rectangle2D~[･]~~[･]~~double~[null･]~getX
+3 ~Rectangle2D~[･]~~[･]~~double~[null･]~getY
+1 ~PrintfParser~[･]~~[･]~~int~[char[]･int･null･]~parse
+29 ~StringBuilder~[･]~~[･]~~StringBuilder~[char･null･]~append
+4 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･int･boolean･null･]~buildHex
+1 ~StringBuilder~[･]~~[･]~~int~[null･]~length
+1 s~Math~[･]~~[･]~~long~[double･null･]~round
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getHeight
+2 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･Point2D･boolean･null･]~buildPoint
+1 s~Integer~[･]~~[･]~~String~[int･null･]~toOctalString
+1 ~String~[･]~~[･]~~char~[int･null･]~charAt
+1 s~format~[･]~~[･]~length~char[]~[null･]~toCharArray
+2 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･Rectangle2D･boolean･boolean･null･]~buildBox
+11 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+2 ~StringBuilder~[･]~~[･]~~StringBuilder~[long･null･]~append
+2 ~PrintfParser~[･]~~[･]~~StringBuilder~[StringBuilder･double･null･]~buildFloat
+!
+i22
+#title=GrappaSupportRects.java22
+1 ~TableField~[･]~~[･]~~void~[int･int･null･]~setSize
+2 ~TableField~[･]~~[･]~~void~[boolean･null･]~setLR
+2 s~Math~[･]~~[･]~~double~[double･null･]~floor
+2 ~TableField~[･]~~[･]~~String~[null･]~getText
+3 ~TableField~[･]~~[･]~~void~[Dimension･null･]~setSize
+4 ~TableField~[･]~~[･]~~TableField~[int･null･]~fieldAt
+2 ~StringBuilder~[･]~~[･]~~void~[int･null･]~setLength
+1 ~TableField~[･]~~[･]~~void~[String･Node･null･]~setTextBounds
+1 ~TableField~[･]~~[･]~~Dimension~[Dimension･null･]~resizeFields
+1 ~TableField~[･]~~[･]~~void~[null･]~debugID
+1 ~TableField~[･]~~[･]~~int~[int･null･]~subfields
+1 ~String~[･]~~[･]~~int~[null･]~length
+2 s~Math~[･]~~[･]~~int~[float･null･]~round
+4 ~Dimension~[･]~~[･]~~void~[int･int･null･]~setSize
+4 ~StringBuilder~[･]~~[･]~~StringBuilder~[String･null･]~append
+2 ~TableField~[･]~~[･]~~void~[TableField･null･]~addField
+1 ~TableField~[･]~~[･]~~void~[Point･null･]~positionFields
+2 ~StringBuilder~[･]~~[･]~~StringBuilder~[Object･null･]~append
+2 ~TableField~[･]~~[･]~~Rectangle~[null･]~getBounds
+12 ~StringBuilder~[･]~~[･]~~StringBuilder~[char･null･]~append
+1 ~Rectangle~[･]~~[･]~~void~[Rectangle･null･]~setBounds
+2 s~Math~[･]~~[･]~~int~[int･int･null･]~min
+1 ~String~[･]~~[･]~~int~[int･null･]~indexOf
+1 ~Rectangle~[･]~~[･]~~void~[int･int･int･int･null･]~setBounds
+9 ~TableField~[･]~~[･]~~Dimension~[null･]~getSize
+2 ~TableField~[･]~~[･]~~Rectangle~[null･]~getTextBounds
+3 s~Math~[･]~~[･]~~long~[double･null･]~round
+1 ~Rectangle~[･]~~[･]~~double~[null･]~getCenterX
+1 ~TableField~[･]~~[･]~~Dimension~[null･]~sizeFields
+1 ~Rectangle~[･]~~[･]~~double~[null･]~getCenterY
+4 ~StringBuilder~[･]~~[･]~~StringBuilder~[int･null･]~append
+4 ~TableField~[･]~~[･]~~boolean~[null･]~isLR
+4 ~String~[･]~~[･]~~boolean~[String･null･]~startsWith
+3 ~String~[･]~~[･]~~char[]~[null･]~toCharArray
+3 ~TableField~[･]~~[･]~~TableField~[null･]~getParent
+3 ~TableField~[･]~~[･]~~void~[TableField･null･]~setParent
+1 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+2 s~Math~[･]~~[･]~~int~[int･int･null･]~max
+1 ~TableField~[･]~~[･]~~void~[int･int･int･int･null･]~setBounds
+1 ~TableField~[･]~~[･]~~void~[String･null･]~setId
+4 ~StringBuilder~[･]~~[･]~~String~[null･]~toString
+5 ~TableField~[･]~~[･]~~int~[null･]~fieldCount
+!
+i23
+#title=Lexer.java23
+1 ~PrintWriter~[･]~~[･]~~void~[char[]･null･]~println
+2 ~StringBuffer~[･]~~[･]~~StringBuffer~[char[]･int･int･null･]~append
+4 ~StringBuffer~[･]~~[･]~~StringBuffer~[int･int･null･]~delete
+2 ~Hashtable~[･]~~[･]~~Object~[Object･null･]~get
+2 ~Integer~[･]~~[･]~~int~[null･]~intValue
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isJavaIdentifierStart
+4 ~StringBuffer~[･]~~[･]~~String~[null･]~toString
+2 ~PrintWriter~[･]~~[･]~~void~[String･null･]~println
+1 s~Lexer~[･]~~[･]~~boolean~[char･null･]~id_char
+1 s~Character~[･]~~[･]~~boolean~[char･null･]~isDigit
+18 ~Hashtable~[･]~~[･]~~Object~[Object･Object･null･]~put
+1 s~Character~[･]~~[･]~~int~[char･null･]~getType
+5 ~Reader~[･]~~[･]~~int~[null･]~read
+4 ~StringBuffer~[･]~~[･]~~int~[null･]~length
+3 ~StringBuffer~[･]~~[･]~~StringBuffer~[Object･null･]~append
+!
+i24
+#title=Node.java24
+10 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+1 s~System~[･]~~[･]~~long~[null･]~currentTimeMillis
+2 ~ArrayList~[･]~~[･]~~Edge~[int･null･]~get
+6 ~ArrayList~[･]~~[･]~~int~[null･]~size
+2 ~Double~[･]~~[･]~~double~[null･]~doubleValue
+1 ~String~[･]~~[･]~~int~[null･]~hashCode
+!
+i25
+#title=Parser.java25
+2 ~List~[･]~~[･]~~Object~[int･null･]~get
+207 ~Stack~[･]~~[･]~~Object~[int･null･]~elementAt
+1 ~List~[･]~~[･]~~void~[null･]~clear
+1 ~Object~[･]~~[･]~~String~[null･]~toString
+16 ~Parser~[･]~~[･]~~void~[int･String･null･]~debug_message
+2 ~List~[･]~~[･]~~int~[null･]~size
+13 ~Parser~[･]~~[･]~~int~[null･]~getDebugLevel
+4 ~ArrayList~[･]~~[･]~~int~[null･]~size
+1 ~Integer~[･]~~[･]~~int~[null･]~intValue
+2 ~Iterator~[･]~~[･]~~Object~[null･]~next
+2 ~Iterator~[･]~~[･]~~boolean~[null･]~hasNext
+3 ~PrintWriter~[･]~~[･]~~void~[String･null･]~println
+1 ~Parser~[･]~~[･]~~PrintWriter~[null･]~getErrorWriter
+3 ~ArrayList~[･]~~[･]~~Object~[int･null･]~get
+2 s~java.util~[･]~~[･]~List~boolean~[null･]~booleanValue
+2 ~ArrayList~[･]~~[･]~~boolean~[Object･null･]~add
+2 ~ArrayList~[･]~~[･]~~void~[null･]~clear
+3 ~Boolean~[･]~~[･]~~boolean~[null･]~booleanValue
+6 ~Parser~[･]~~[･]~~void~[String･Object･null･]~report_error
+!
+i26
+#title=Subgraph.java26
+4 ~Rectangle2D~[･]~~[･]~~void~[Rectangle2D･null･]~add
+30 ~Double~[･]~~[･]~~double~[null･]~getWidth
+15 ~Iterator~[･]~~[･]~~boolean~[null･]~hasNext
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getCenterY
+3 s~Arrays~[･]~~[･]~~void~[Object[]･int･int･Comparator･null･]~sort
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getCenterX
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getWidth
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getX
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getY
+2 ~PrintWriter~[･]~~[･]~~void~[char[]･null･]~print
+4 ~Subgraph~[･]~~[･]~~Object~[String･Object･null･]~setAttribute
+1 ~HashMap~[･]~~[･]~~void~[null･]~clear
+29 ~Double~[･]~~[･]~~double~[null･]~getHeight
+1 ~HashMap~[･]~~[･]~~Subgraph~[Object･null･]~remove
+16 ~HashMap~[･]~~[･]~~int~[null･]~size
+1 ~HashMap~[･]~~[･]~~Subgraph~[Object･null･]~get
+1 s~java.awt~[･]~Color~[･]~Color~Color~[float･float･float･null･]~getHSBColor
+1 ~Rectangle2D~[･]~~[･]~~double~[null･]~getHeight
+1 ~HashMap~[･]~~[･]~~Object~[Object･Object･null･]~put
+1 ~Subgraph~[･]~~[･]~~Iterator~[null･]~getEdgeAttributePairs
+1 ~Subgraph~[･]~~[･]~~Element[]~[null･]~getPatches
+1 ~HashMap~[･]~~[･]~~boolean~[Object･null･]~containsKey
+1 ~HashMap~[･]~~[･]~~Subgraph~[String･Subgraph･null･]~put
+1 ~Subgraph~[･]~~[･]~~void~[null･]~combPatchWork
+1 ~Rectangle2D~[･]~~[･]~~Object~[null･]~clone
+6 ~PrintWriter~[･]~~[･]~~void~[String･null･]~println
+1 ~HashMap~[･]~~[･]~~Object~[Object･null･]~remove
+2 ~String~[･]~~[･]~~int~[null･]~length
+1 s~java.awt.geom.Rectangle2D~[･]~~[･]~Double~void~[Double･boolean･null･]~compSqPatchWork
+1 ~HashMap~[･]~~[･]~~Object~[Object･null･]~get
+4 s~System~[･]~~[･]~~void~[Object･int･Object･int･int･null･]~arraycopy
+1 ~Rectangle2D~[･]~~[･]~~void~[Point2D･null･]~add
+10 ~Double~[･]~~[･]~~double~[null･]~getY
+10 ~Double~[･]~~[･]~~double~[null･]~getX
+3 ~Subgraph~[･]~~[･]~~Attribute~[String･null･]~getEdgeAttribute
+2 ~PrintWriter~[･]~~[･]~~void~[null･]~println
+1 ~Subgraph~[･]~~[･]~~Iterator~[null･]~getNodeAttributePairs
+1 ~PrintWriter~[･]~~[･]~~void~[char[]･null･]~println
+1 s~System~[･]~~[･]~~long~[null･]~currentTimeMillis
+1 ~HashMap~[･]~~[･]~~boolean~[null･]~isEmpty
+1 ~String~[･]~~[･]~~int~[int･null･]~indexOf
+1 s~elPatches~[･]~~[･]~length~void~[Double･boolean･null･]~compSqPatchWork
+15 ~Iterator~[･]~~[･]~~Object~[null･]~next
+3 ~Iterator~[･]~~[･]~~Subgraph~[null･]~next
+1 ~String~[･]~~[･]~~int~[null･]~hashCode
+1 ~Subgraph~[･]~~[･]~~double~[String･int･null･]~prepPatchWork
+10 ~String~[･]~~[･]~~boolean~[Object･null･]~equals
+1 ~Subgraph~[･]~~[･]~~Object~[Attribute･null･]~setAttribute
+11 ~HashMap~[･]~~[･]~~Collection~[null･]~values
+3 ~Subgraph~[･]~~[･]~~Attribute~[String･null･]~getNodeAttribute
+1 ~Rectangle2D~[･]~~[･]~~void~[double･double･null･]~add
+!
+i27
+#title=Test.java27
+1 s~System~[･]~PrintStream~[･]~out~void~[char[]･null･]~println
+1 s~Math~[･]~~[･]~~double~[double･double･null･]~atan2
+3 ~List~[･]~~[･]~~boolean~[String･null･]~add
+1 s~Integer~[･]~Integer~[String･null･]~valueOf~int~[null･]~intValue
+1 s~System~[･]~PrintStream~[･]~out~void~[String･null･]~println
+!
+i28
+#title=test2.java28
+1 s~Math~[･]~~[･]~~double~[null･]~random
+1 s~System~[･]~PrintStream~[･]~out~void~[char[]･null･]~println
+1 s~Math~[･]~~[･]~~double~[double･double･null･]~atan2
+2 ~List~[･]~~[･]~~boolean~[String･null･]~add
+1 s~System~[･]~PrintStream~[･]~out~void~[String･null･]~println
+!
